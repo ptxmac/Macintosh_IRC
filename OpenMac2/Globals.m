@@ -38,14 +38,6 @@
     // the email button on the toolbar
         NSString *EMAIL_ADDRESS = @"mailto:macintosh@irczone.dk";
 
-// now we'll set up the version check system
-    // were is the version check file?
-        NSString *VERSION_URL = @"http://macintosh.irczone.dk/versioncheck.txt"; // url to your version check file
-            // don't forget that the file should be formatted like this:
-            // versionnumber;buildnumber;releasedate;urltodownload;newFeatures
-
-    // what is the build number in the version check file?
-       const int APPBUILDNUMBER = 3;
 
     // if there is an error in the version checking, were does one go and look for a new version?
         NSString *APP_URL = @"http://macintosh.irczone.dk/"; // url to chat app's web site

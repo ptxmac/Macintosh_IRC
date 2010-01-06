@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		313FA34610F50CF500E9D065 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313FA33D10F50CE600E9D065 /* Sparkle.framework */; };
+		313FA3B710F5132100E9D065 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 313FA3B610F5132100E9D065 /* dsa_pub.pem */; };
 		3163347010F0B0CE006BA354 /* DrawerButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C34B300179055C01A80014 /* DrawerButtonController.h */; };
 		3163347110F0B0CE006BA354 /* ChatWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C062B3017B8B0F01A80014 /* ChatWindowController.h */; };
 		3163347210F0B0CE006BA354 /* InfoPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F75C3D01D7E85401A80014 /* InfoPanelController.h */; };
@@ -114,35 +115,35 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* Sparkle.framework */;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = Sparkle;
 		};
 		313FA33E10F50CE600E9D065 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 61B5F90209C4CEE200B25A18 /* Sparkle Test App.app */;
+			remoteGlobalIDString = 61B5F90209C4CEE200B25A18;
 			remoteInfo = "Sparkle Test App";
 		};
 		313FA34010F50CE600E9D065 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = DAAEFC960DA571DF0051E0D0 /* relaunch */;
+			remoteGlobalIDString = DAAEFC960DA571DF0051E0D0;
 			remoteInfo = "relaunch tool";
 		};
 		313FA34210F50CE600E9D065 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 612279D90DB5470200AB99EA /* Sparkle Unit Tests.octest */;
+			remoteGlobalIDString = 612279D90DB5470200AB99EA;
 			remoteInfo = "Sparkle Unit Tests";
 		};
 		313FA34910F50D0E00E9D065 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* Sparkle */;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = Sparkle;
 		};
 /* End PBXContainerItemProxy section */
@@ -155,7 +156,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sparkle.xcodeproj; path = ../Sparkle/Sparkle.xcodeproj; sourceTree = SOURCE_ROOT; };
-		316334E210F0B0CE006BA354 /* Info-OpenMac__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-OpenMac__Upgraded_.plist"; sourceTree = "<group>"; };
+		313FA3B610F5132100E9D065 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = ../dsa_pub.pem; sourceTree = SOURCE_ROOT; };
+		316334E210F0B0CE006BA354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		316334E310F0B0CE006BA354 /* #Macintosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#Macintosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3163351710F0B636006BA354 /* LSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTextView.h; sourceTree = "<group>"; };
 		3163351810F0B636006BA354 /* LSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTextView.m; sourceTree = "<group>"; };
@@ -339,7 +341,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				4C23644C041CD36200A80055 /* Localizable.strings */,
-				316334E210F0B0CE006BA354 /* Info-OpenMac__Upgraded_.plist */,
+				316334E210F0B0CE006BA354 /* Info.plist */,
 			);
 			name = OpenMac;
 			sourceTree = "<group>";
@@ -563,6 +565,7 @@
 		F5D00DF602A4E3A101CCBCB5 /* nibs */ = {
 			isa = PBXGroup;
 			children = (
+				313FA3B610F5132100E9D065 /* dsa_pub.pem */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 				F5F75C3601D7DAEB01A80014 /* Info.nib */,
 				F502353C01DFE04701A80014 /* NickRegistration.nib */,
@@ -612,9 +615,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3163346E10F0B0CE006BA354 /* OpenMac (Upgraded) */ = {
+		3163346E10F0B0CE006BA354 /* Macintosh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 316334DE10F0B0CE006BA354 /* Build configuration list for PBXNativeTarget "OpenMac (Upgraded)" */;
+			buildConfigurationList = 316334DE10F0B0CE006BA354 /* Build configuration list for PBXNativeTarget "Macintosh" */;
 			buildPhases = (
 				3163346F10F0B0CE006BA354 /* Headers */,
 				3163348D10F0B0CE006BA354 /* Resources */,
@@ -626,7 +629,7 @@
 			dependencies = (
 				313FA34A10F50D0E00E9D065 /* PBXTargetDependency */,
 			);
-			name = "OpenMac (Upgraded)";
+			name = Macintosh;
 			productName = OpenMac;
 			productReference = 316334E310F0B0CE006BA354 /* #Macintosh.app */;
 			productType = "com.apple.product-type.application";
@@ -657,7 +660,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				3163346E10F0B0CE006BA354 /* OpenMac (Upgraded) */,
+				3163346E10F0B0CE006BA354 /* Macintosh */,
 			);
 		};
 /* End PBXProject section */
@@ -745,6 +748,7 @@
 				316334BA10F0B0CE006BA354 /* macintosh.icns in Resources */,
 				316334BB10F0B0CE006BA354 /* ReadMe.rtfd in Resources */,
 				316334BC10F0B0CE006BA354 /* oh.tif in Resources */,
+				313FA3B710F5132100E9D065 /* dsa_pub.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -885,7 +889,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		316334DF10F0B0CE006BA354 /* Development */ = {
+		316334DF10F0B0CE006BA354 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -896,11 +900,12 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-OpenMac__Upgraded_.plist";
+				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "#Macintosh";
+				SDKROOT = "";
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -908,11 +913,10 @@
 					"-Wno-unknown-pragmas",
 				);
 				WRAPPER_EXTENSION = app;
-				ZERO_LINK = YES;
 			};
-			name = Development;
+			name = Debug;
 		};
-		316334E010F0B0CE006BA354 /* Deployment */ = {
+		316334E010F0B0CE006BA354 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -922,34 +926,12 @@
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-OpenMac__Upgraded_.plist";
+				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "#Macintosh";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		316334E110F0B0CE006BA354 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-OpenMac__Upgraded_.plist";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "#Macintosh";
+				SDKROOT = "";
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -958,16 +940,16 @@
 				);
 				WRAPPER_EXTENSION = app;
 			};
-			name = Default;
+			name = Release;
 		};
-		4C5A7C3808CA18F700D79DBF /* Development */ = {
+		4C5A7C3808CA18F700D79DBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
-			name = Development;
+			name = Debug;
 		};
-		4C5A7C3908CA18F700D79DBF /* Deployment */ = {
+		4C5A7C3908CA18F700D79DBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
@@ -976,37 +958,28 @@
 				"MACOSX_DEPLOYMENT_TARGET[arch=ppc]" = 10.1;
 				SDKROOT = "";
 			};
-			name = Deployment;
-		};
-		4C5A7C3A08CA18F700D79DBF /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
-			};
-			name = Default;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		316334DE10F0B0CE006BA354 /* Build configuration list for PBXNativeTarget "OpenMac (Upgraded)" */ = {
+		316334DE10F0B0CE006BA354 /* Build configuration list for PBXNativeTarget "Macintosh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				316334DF10F0B0CE006BA354 /* Development */,
-				316334E010F0B0CE006BA354 /* Deployment */,
-				316334E110F0B0CE006BA354 /* Default */,
+				316334DF10F0B0CE006BA354 /* Debug */,
+				316334E010F0B0CE006BA354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
 		4C5A7C3708CA18F700D79DBF /* Build configuration list for PBXProject "OpenMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C5A7C3808CA18F700D79DBF /* Development */,
-				4C5A7C3908CA18F700D79DBF /* Deployment */,
-				4C5A7C3A08CA18F700D79DBF /* Default */,
+				4C5A7C3808CA18F700D79DBF /* Debug */,
+				4C5A7C3908CA18F700D79DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
