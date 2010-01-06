@@ -218,7 +218,6 @@
 				<string>com.apple.ide.PBXToolbarStopButton</string>
 				<string>get-info</string>
 				<string>show-inspector</string>
-				<string>servicesModuleRefactoring</string>
 				<string>NSToolbarFlexibleSpaceItem</string>
 				<string>com.apple.pbx.toolbar.searchfield</string>
 			</array>
@@ -233,6 +232,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -271,23 +272,18 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>080E96DDFE201D6D7F000001</string>
-								<string>F55F72C7029C99C001A80028</string>
-								<string>F544350202A7406A01CCBCB5</string>
+								<string>313FA33110F50CE600E9D065</string>
 								<string>1C37FBAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>9</integer>
-									<integer>7</integer>
-									<integer>3</integer>
-									<integer>0</integer>
+									<integer>17</integer>
+									<integer>16</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {267, 728}}</string>
+							<string>{{0, 0}, {267, 872}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -297,7 +293,7 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {284, 746}}</string>
+						<string>{{0, 0}, {284, 890}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>TargetStatusColumn</string>
@@ -306,7 +302,7 @@
 							<real>245</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>84 91 1344 787 0 0 1440 878 </string>
+						<string>251 187 1452 931 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -322,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>3163346110F0B0B6006BA354</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>IRCController.m</string>
+								<string>Info-OpenMac__Upgraded_.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,16 +326,15 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>3163346210F0B0B6006BA354</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>IRCController.m</string>
+										<string>Info-OpenMac__Upgraded_.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>316335A410F1D6A7006BA354</string>
+										<string>313FA35010F50D1300E9D065</string>
 										<key>history</key>
 										<array>
 											<string>3163350110F0B200006BA354</string>
 											<string>3163352610F0B6D3006BA354</string>
-											<string>3163352810F0B6D3006BA354</string>
 											<string>3163352910F0B6D3006BA354</string>
 											<string>3163352A10F0B6D3006BA354</string>
 											<string>3163352B10F0B6D3006BA354</string>
@@ -349,14 +344,16 @@
 											<string>3163356E10F0C203006BA354</string>
 											<string>3163356F10F0C203006BA354</string>
 											<string>3163357010F0C203006BA354</string>
-											<string>3163357110F0C203006BA354</string>
 											<string>3163357210F0C203006BA354</string>
 											<string>3163358A10F0C37E006BA354</string>
 											<string>3163358C10F0C37E006BA354</string>
 											<string>3163359C10F0C41E006BA354</string>
 											<string>3163359D10F0C41E006BA354</string>
 											<string>316335A210F1D6A7006BA354</string>
-											<string>316335A310F1D6A7006BA354</string>
+											<string>313FA34D10F50D1300E9D065</string>
+											<string>313FA34E10F50D1300E9D065</string>
+											<string>313FA34F10F50D1300E9D065</string>
+											<string>3163357110F0C203006BA354</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -370,18 +367,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1055, 471}}</string>
+								<string>{{0, 0}, {1163, 607}}</string>
 								<key>RubberWindowFrame</key>
-								<string>84 91 1344 787 0 0 1440 878 </string>
+								<string>251 187 1452 931 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>471pt</string>
+							<string>607pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>270pt</string>
+							<string>278pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -395,7 +392,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {977, -27}}</string>
+										<string>{{10, 27}, {1163, 251}}</string>
+										<key>RubberWindowFrame</key>
+										<string>251 187 1452 931 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -450,8 +449,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1055, 243}}</string>
-										<key>RubberWindowFrame</key>
-										<string>84 91 1344 787 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -460,7 +457,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1055pt</string>
+					<string>1163pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -479,11 +476,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>3163354910F0B790006BA354</string>
+				<string>313FA32510F50ABE00E9D065</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>3163354A10F0B790006BA354</string>
+				<string>313FA32610F50ABE00E9D065</string>
 				<string>3163346110F0B0B6006BA354</string>
-				<string>3163354B10F0B790006BA354</string>
+				<string>313FA32710F50ABE00E9D065</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -674,13 +671,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>3163359210F0C3B6006BA354</string>
-		<string>3163355310F0B790006BA354</string>
-		<string>3163355410F0B790006BA354</string>
-		<string>/Users/ptx/Downloads/cvs/#Macintosh/OpenMac2/OpenMac.xcodeproj</string>
+		<string>/Users/ptx/Projects/LS/Macintosh_IRC/OpenMac2/OpenMac.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>84 91 1344 787 0 0 1440 878 </string>
+	<string>251 187 1452 931 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

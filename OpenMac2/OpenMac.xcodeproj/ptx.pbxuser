@@ -20,7 +20,6 @@
 		);
 		codeSenseManager = 3163346810F0B0B6006BA354 /* Code sense */;
 		executables = (
-			3163345110F0B0A8006BA354 /* OpenMac */,
 			316334E410F0B0CE006BA354 /* OpenMac (Upgraded) */,
 		);
 		perUserDictionary = {
@@ -29,7 +28,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					10,
+					924,
 					20,
 					48,
 					43,
@@ -51,7 +50,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					10,
+					884,
 					60,
 					20,
 					48,
@@ -68,68 +67,92 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 284211078;
-			PBXWorkspaceStateSaveDate = 284211078;
+			PBXPerProjectTemplateStateSaveDate = 284494514;
+			PBXWorkspaceStateSaveDate = 284494514;
 		};
 		perUserProjectItems = {
-			3163350110F0B200006BA354 /* PBXTextBookmark */ = 3163350110F0B200006BA354 /* PBXTextBookmark */;
-			3163352610F0B6D3006BA354 /* PBXTextBookmark */ = 3163352610F0B6D3006BA354 /* PBXTextBookmark */;
-			3163352810F0B6D3006BA354 /* PBXTextBookmark */ = 3163352810F0B6D3006BA354 /* PBXTextBookmark */;
-			3163352910F0B6D3006BA354 /* PBXTextBookmark */ = 3163352910F0B6D3006BA354 /* PBXTextBookmark */;
-			3163352A10F0B6D3006BA354 /* PBXTextBookmark */ = 3163352A10F0B6D3006BA354 /* PBXTextBookmark */;
-			3163352B10F0B6D3006BA354 /* PBXTextBookmark */ = 3163352B10F0B6D3006BA354 /* PBXTextBookmark */;
-			3163352C10F0B6D3006BA354 /* PBXTextBookmark */ = 3163352C10F0B6D3006BA354 /* PBXTextBookmark */;
-			3163356A10F0C203006BA354 /* PBXTextBookmark */ = 3163356A10F0C203006BA354 /* PBXTextBookmark */;
-			3163356B10F0C203006BA354 /* PBXTextBookmark */ = 3163356B10F0C203006BA354 /* PBXTextBookmark */;
-			3163356E10F0C203006BA354 /* PBXTextBookmark */ = 3163356E10F0C203006BA354 /* PBXTextBookmark */;
-			3163356F10F0C203006BA354 /* PBXTextBookmark */ = 3163356F10F0C203006BA354 /* PBXTextBookmark */;
-			3163357010F0C203006BA354 /* PBXTextBookmark */ = 3163357010F0C203006BA354 /* PBXTextBookmark */;
-			3163357110F0C203006BA354 /* PlistBookmark */ = 3163357110F0C203006BA354 /* PlistBookmark */;
-			3163357210F0C203006BA354 /* PBXTextBookmark */ = 3163357210F0C203006BA354 /* PBXTextBookmark */;
-			3163358A10F0C37E006BA354 /* PBXTextBookmark */ = 3163358A10F0C37E006BA354 /* PBXTextBookmark */;
-			3163358C10F0C37E006BA354 /* PBXTextBookmark */ = 3163358C10F0C37E006BA354 /* PBXTextBookmark */;
-			3163359C10F0C41E006BA354 /* PBXTextBookmark */ = 3163359C10F0C41E006BA354 /* PBXTextBookmark */;
-			3163359D10F0C41E006BA354 /* PBXTextBookmark */ = 3163359D10F0C41E006BA354 /* PBXTextBookmark */;
-			316335A210F1D6A7006BA354 /* PBXTextBookmark */ = 316335A210F1D6A7006BA354 /* PBXTextBookmark */;
-			316335A310F1D6A7006BA354 /* XCBuildMessageTextBookmark */ = 316335A310F1D6A7006BA354 /* XCBuildMessageTextBookmark */;
-			316335A410F1D6A7006BA354 /* PBXTextBookmark */ = 316335A410F1D6A7006BA354 /* PBXTextBookmark */;
+			313FA32410F50ABE00E9D065 /* PBXTextBookmark */ = 313FA32410F50ABE00E9D065 /* PBXTextBookmark */;
+			313FA34D10F50D1300E9D065 /* PBXTextBookmark */ = 313FA34D10F50D1300E9D065 /* PBXTextBookmark */;
+			313FA34E10F50D1300E9D065 /* PBXTextBookmark */ = 313FA34E10F50D1300E9D065 /* PBXTextBookmark */;
+			313FA34F10F50D1300E9D065 /* PBXTextBookmark */ = 313FA34F10F50D1300E9D065 /* PBXTextBookmark */;
+			313FA35010F50D1300E9D065 /* PlistBookmark */ = 313FA35010F50D1300E9D065 /* PlistBookmark */;
+			3163350110F0B200006BA354 = 3163350110F0B200006BA354 /* PBXTextBookmark */;
+			3163352610F0B6D3006BA354 = 3163352610F0B6D3006BA354 /* PBXTextBookmark */;
+			3163352810F0B6D3006BA354 = 3163352810F0B6D3006BA354 /* PBXTextBookmark */;
+			3163352910F0B6D3006BA354 = 3163352910F0B6D3006BA354 /* PBXTextBookmark */;
+			3163352A10F0B6D3006BA354 = 3163352A10F0B6D3006BA354 /* PBXTextBookmark */;
+			3163352B10F0B6D3006BA354 = 3163352B10F0B6D3006BA354 /* PBXTextBookmark */;
+			3163352C10F0B6D3006BA354 = 3163352C10F0B6D3006BA354 /* PBXTextBookmark */;
+			3163356A10F0C203006BA354 = 3163356A10F0C203006BA354 /* PBXTextBookmark */;
+			3163356B10F0C203006BA354 = 3163356B10F0C203006BA354 /* PBXTextBookmark */;
+			3163356E10F0C203006BA354 = 3163356E10F0C203006BA354 /* PBXTextBookmark */;
+			3163356F10F0C203006BA354 = 3163356F10F0C203006BA354 /* PBXTextBookmark */;
+			3163357010F0C203006BA354 = 3163357010F0C203006BA354 /* PBXTextBookmark */;
+			3163357110F0C203006BA354 = 3163357110F0C203006BA354 /* PlistBookmark */;
+			3163357210F0C203006BA354 = 3163357210F0C203006BA354 /* PBXTextBookmark */;
+			3163358A10F0C37E006BA354 = 3163358A10F0C37E006BA354 /* PBXTextBookmark */;
+			3163358C10F0C37E006BA354 = 3163358C10F0C37E006BA354 /* PBXTextBookmark */;
+			3163359C10F0C41E006BA354 = 3163359C10F0C41E006BA354 /* PBXTextBookmark */;
+			3163359D10F0C41E006BA354 = 3163359D10F0C41E006BA354 /* PBXTextBookmark */;
+			316335A210F1D6A7006BA354 = 316335A210F1D6A7006BA354 /* PBXTextBookmark */;
+			316335A310F1D6A7006BA354 = 316335A310F1D6A7006BA354 /* PBXTextBookmark */;
+			316335A410F1D6A7006BA354 = 316335A410F1D6A7006BA354 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3163346710F0B0B6006BA354 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	29B97326FDCFA39411CA2CEA /* OpenMac */ = {
-		activeExec = 0;
-		executables = (
-			3163345110F0B0A8006BA354 /* OpenMac */,
-		);
+	313FA32410F50ABE00E9D065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F59730F501A6D8F501A80014 /* IRCController.m */;
+		name = "IRCController.m: 201";
+		rLen = 0;
+		rLoc = 8670;
+		rType = 0;
+		vrLen = 2029;
+		vrLoc = 7775;
 	};
-	3163345110F0B0A8006BA354 /* OpenMac */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
+	313FA34D10F50D1300E9D065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F59730F501A6D8F501A80014 /* IRCController.m */;
+		name = "IRCController.m: 201";
+		rLen = 0;
+		rLoc = 8670;
+		rType = 0;
+		vrLen = 2665;
+		vrLoc = 7775;
+	};
+	313FA34E10F50D1300E9D065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F54434FB02A7403F01CCBCB5 /* NSURL+NDCarbonUtilities.h */;
+		name = "NSURL+NDCarbonUtilities.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	313FA34F10F50D1300E9D065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F550C48C02C3F77401CCBCB6 /* Read Me! Important Info!.rtf */;
+		name = "http://www.openmac.org";
+		rLen = 22;
+		rLoc = 5250;
+		rType = 0;
+		vrLen = 3689;
+		vrLoc = 2678;
+	};
+	313FA35010F50D1300E9D065 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 316334E210F0B0CE006BA354 /* Info-OpenMac__Upgraded_.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
 		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		dataTipCustomDataFormattersEnabled = 1;
-		dataTipShowTypeColumn = 1;
-		dataTipSortType = 0;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = OpenMac;
-		showTypeColumn = 0;
-		sourceDirectories = (
-		);
+		name = "/Users/ptx/Projects/LS/Macintosh_IRC/OpenMac2/Info-OpenMac__Upgraded_.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	3163346710F0B0B6006BA354 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -271,11 +294,6 @@
 		name = AEDataModel.h;
 		path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/Headers/AEDataModel.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1195, 37632}}";
-			sepNavSelRange = "{4022, 46}";
-			sepNavVisRange = "{3556, 1102}";
-		};
 	};
 	3163356A10F0C203006BA354 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -299,6 +317,7 @@
 	};
 	3163356C10F0C203006BA354 /* NSString.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = NSString.h;
 		path = /System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSString.h;
 		sourceTree = "<absolute>";
@@ -343,7 +362,7 @@
 		);
 		name = "/Users/ptx/Downloads/cvs/#Macintosh/OpenMac2/Info-OpenMac__Upgraded_.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	3163357210F0C203006BA354 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -421,11 +440,10 @@
 		vrLen = 798;
 		vrLoc = 0;
 	};
-	316335A310F1D6A7006BA354 /* XCBuildMessageTextBookmark */ = {
+	316335A310F1D6A7006BA354 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "'cString' is deprecated (declared at /System/Library/Frameworks/Foundation.framework/Headers/NSString.h:367)";
 		fRef = F59730F501A6D8F501A80014 /* IRCController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
 		rLoc = 200;
 		rType = 1;
@@ -482,6 +500,13 @@
 			sepNavVisRange = "{0, 652}";
 		};
 	};
+	F54434FB02A7403F01CCBCB5 /* NSURL+NDCarbonUtilities.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 575}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 447}";
+		};
+	};
 	F544350302A7409401CCBCB5 /* NDAppleScriptObject.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {994, 17682}}";
@@ -520,9 +545,9 @@
 	F59730F501A6D8F501A80014 /* IRCController.m */ = {
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{112279, 7050}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 120411}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1979, 31906}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1979, 31878}}";
 			sepNavSelRange = "{8670, 0}";
-			sepNavVisRange = "{7775, 2141}";
+			sepNavVisRange = "{7775, 2665}";
 			sepNavWindowFrame = "{{56, 0}, {1025, 876}}";
 		};
 	};

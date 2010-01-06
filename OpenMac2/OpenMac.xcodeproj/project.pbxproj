@@ -6,62 +6,8 @@
 	objectVersion = 44;
 	objects = {
 
-/* Begin PBXApplicationTarget section */
-		29B97326FDCFA39411CA2CEA /* OpenMac */ = {
-			isa = PBXApplicationTarget;
-			buildConfigurationList = 4C5A7C3308CA18F700D79DBF /* Build configuration list for PBXApplicationTarget "OpenMac" */;
-			buildPhases = (
-				29B97327FDCFA39411CA2CEA /* Headers */,
-				29B97328FDCFA39411CA2CEA /* Resources */,
-				29B9732BFDCFA39411CA2CEA /* Sources */,
-				29B9732DFDCFA39411CA2CEA /* Frameworks */,
-			);
-			dependencies = (
-			);
-			name = OpenMac;
-			productName = OpenMac;
-			productReference = 17587328FF379C6511CA2CBB /* #Macintosh.app */;
-			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
-<plist version=\"1.0\">
-<dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
-	<key>CFBundleExecutable</key>
-	<string>#Macintosh</string>
-	<key>CFBundleGetInfoString</key>
-	<string>1.0.1</string>
-	<key>CFBundleIconFile</key>
-	<string>macintosh</string>
-	<key>CFBundleIdentifier</key>
-	<string>dk.irczone.macintosh</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>#Macintosh</string>
-	<key>CFBundlePackageType</key>
-	<string>APPL</string>
-	<key>CFBundleShortVersionString</key>
-	<string>#Macintosh v1.0.1</string>
-	<key>CFBundleSignature</key>
-	<string>OMCt</string>
-	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
-	<key>NSMainNibFile</key>
-	<string>MainMenu</string>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
-</dict>
-</plist>
-";
-		};
-/* End PBXApplicationTarget section */
-
 /* Begin PBXBuildFile section */
-		080E96DCFE201CFB7F000001 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
-		089C165EFE840E0CC02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		1058C7A3FEA54F0111CA2CBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		29B9732CFDCFA39411CA2CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		313FA34610F50CF500E9D065 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313FA33D10F50CE600E9D065 /* Sparkle.framework */; };
 		3163347010F0B0CE006BA354 /* DrawerButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C34B300179055C01A80014 /* DrawerButtonController.h */; };
 		3163347110F0B0CE006BA354 /* ChatWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C062B3017B8B0F01A80014 /* ChatWindowController.h */; };
 		3163347210F0B0CE006BA354 /* InfoPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F75C3D01D7E85401A80014 /* InfoPanelController.h */; };
@@ -161,119 +107,54 @@
 		316334DD10F0B0CE006BA354 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E0769D02AE31ED0100010C /* Carbon.framework */; };
 		3163351910F0B636006BA354 /* LSTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3163351710F0B636006BA354 /* LSTextView.h */; };
 		3163351A10F0B636006BA354 /* LSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3163351810F0B636006BA354 /* LSTextView.m */; };
-		33536195042C7A9000A4787A /* LSTextViewCat.h in Headers */ = {isa = PBXBuildFile; fileRef = 33536193042C7A9000A4787A /* LSTextViewCat.h */; };
-		33536196042C7A9000A4787A /* LSTextViewCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 33536194042C7A9000A4787A /* LSTextViewCat.m */; };
-		4C23644D041CD36200A80055 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C23644C041CD36200A80055 /* Localizable.strings */; };
-		4C2AF0CA04207C3D00A80055 /* macintosh.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4C2AF0C904207C3D00A80055 /* macintosh.icns */; };
-		4C2F9783042C934F00A80055 /* oh.tif in Resources */ = {isa = PBXBuildFile; fileRef = 4C2F9782042C934F00A80055 /* oh.tif */; };
-		4C8B8101042C8A3500A80055 /* ReadMe.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 4C8B8100042C8A3500A80055 /* ReadMe.rtfd */; };
-		4CD94510041CCEFE00A80055 /* macintosh-logo-irc.tif in Resources */ = {isa = PBXBuildFile; fileRef = 4CD9450F041CCEFE00A80055 /* macintosh-logo-irc.tif */; };
-		F502353901DFDFC801A80014 /* LeftArrow.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F502353801DFDFC801A80014 /* LeftArrow.tiff */; };
-		F502353B01DFDFD501A80014 /* RightArrow.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F502353A01DFDFD501A80014 /* RightArrow.tiff */; };
-		F502353E01DFE04801A80014 /* NickRegistration.nib in Resources */ = {isa = PBXBuildFile; fileRef = F502353C01DFE04701A80014 /* NickRegistration.nib */; };
-		F502354101DFE87701A80014 /* NickRegController.h in Headers */ = {isa = PBXBuildFile; fileRef = F502353F01DFE87701A80014 /* NickRegController.h */; };
-		F502354201DFE87701A80014 /* NickRegController.m in Sources */ = {isa = PBXBuildFile; fileRef = F502354001DFE87701A80014 /* NickRegController.m */; };
-		F502ACEE034424880189B465 /* SendDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = F502ACEC034424880189B465 /* SendDataController.h */; };
-		F502ACEF034424880189B465 /* SendDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = F502ACED034424880189B465 /* SendDataController.m */; };
-		F502D706036BC3AE01CCBCB5 /* AIKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = F502D704036BC3AE01CCBCB5 /* AIKeychain.h */; };
-		F502D707036BC3AE01CCBCB5 /* AIKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F502D705036BC3AE01CCBCB5 /* AIKeychain.m */; };
-		F5059C7802ECFA5A01CCBCB6 /* Emoticon.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C7702ECFA5A01CCBCB6 /* Emoticon.tif */; };
-		F5059CA202ED0D8001CCBCB6 /* angel.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C7B02ED0D8001CCBCB6 /* angel.tif */; };
-		F5059CA402ED0D8001CCBCB6 /* biggrin.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C7D02ED0D8001CCBCB6 /* biggrin.tif */; };
-		F5059CA802ED0D8001CCBCB6 /* concerned.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C8102ED0D8001CCBCB6 /* concerned.tif */; };
-		F5059CA902ED0D8001CCBCB6 /* confused.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C8202ED0D8001CCBCB6 /* confused.tif */; };
-		F5059CAA02ED0D8001CCBCB6 /* cool.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C8302ED0D8001CCBCB6 /* cool.tif */; };
-		F5059CAC02ED0D8001CCBCB6 /* cry.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C8502ED0D8001CCBCB6 /* cry.tif */; };
-		F5059CAD02ED0D8001CCBCB6 /* devil.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C8602ED0D8001CCBCB6 /* devil.tif */; };
-		F5059CAE02ED0D8001CCBCB6 /* drool.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C8702ED0D8001CCBCB6 /* drool.tif */; };
-		F5059CB202ED0D8001CCBCB6 /* garsh.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C8B02ED0D8001CCBCB6 /* garsh.tif */; };
-		F5059CB702ED0D8001CCBCB6 /* love.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C9002ED0D8001CCBCB6 /* love.tif */; };
-		F5059CBE02ED0D8001CCBCB6 /* sad.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C9702ED0D8001CCBCB6 /* sad.tif */; };
-		F5059CBF02ED0D8001CCBCB6 /* smile.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C9802ED0D8001CCBCB6 /* smile.tif */; };
-		F5059CC302ED0D8001CCBCB6 /* tounge.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C9C02ED0D8001CCBCB6 /* tounge.tif */; };
-		F5059CC502ED0D8001CCBCB6 /* wink.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5059C9E02ED0D8001CCBCB6 /* wink.tif */; };
-		F508CEA501E0061E01A80014 /* IRCController.h in Headers */ = {isa = PBXBuildFile; fileRef = F59730F401A6D8F501A80014 /* IRCController.h */; };
-		F50A420602C07B8101CCBCB6 /* onlineDot.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F50A420402C07B8101CCBCB6 /* onlineDot.tiff */; };
-		F50A420702C07B8101CCBCB6 /* offlineDot.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F50A420502C07B8101CCBCB6 /* offlineDot.tiff */; };
-		F50B438C02BEAD9301CCBCB6 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = F50B438B02BEAD9301CCBCB6 /* Utils.h */; };
-		F50B438E02BEADA401CCBCB6 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B438D02BEADA401CCBCB6 /* Utils.m */; };
-		F52B508302A4FBAC01CCBCB5 /* PrefController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B378AD0177A9DC01A80014 /* PrefController.h */; };
-		F52B508602A4FCF601CCBCB5 /* ping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F52B508402A4FCF601CCBCB5 /* ping.aiff */; };
-		F52B508702A4FCF601CCBCB5 /* notice.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F52B508502A4FCF601CCBCB5 /* notice.aiff */; };
-		F53E403C029DAAEF01A80028 /* URLMutableAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = F53E403B029DAAEF01A80028 /* URLMutableAttributedString.h */; };
-		F53E403D029DAAEF01A80028 /* URLMutableAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E403A029DAAEF01A80028 /* URLMutableAttributedString.m */; };
-		F53E4040029DAC0F01A80028 /* URLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F53E403F029DAC0F01A80028 /* URLTextView.h */; };
-		F53E4041029DAC0F01A80028 /* URLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E403E029DAC0F01A80028 /* URLTextView.m */; };
-		F544350902A7409401CCBCB5 /* NSAppleEventDescriptor+NDAppleScriptObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F544350502A7409401CCBCB5 /* NSAppleEventDescriptor+NDAppleScriptObject.m */; };
-		F544350A02A7409401CCBCB5 /* NSURL+NDCarbonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F544350602A7409401CCBCB5 /* NSURL+NDCarbonUtilities.m */; };
-		F544352702A7420D01CCBCB5 /* NDResourceFork.m in Sources */ = {isa = PBXBuildFile; fileRef = F544350402A7409401CCBCB5 /* NDResourceFork.m */; };
-		F544352802A7420E01CCBCB5 /* NDAppleScriptObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F544350302A7409401CCBCB5 /* NDAppleScriptObject.m */; };
-		F544352902A7420E01CCBCB5 /* NSURL+NDCarbonUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F54434FB02A7403F01CCBCB5 /* NSURL+NDCarbonUtilities.h */; };
-		F544352A02A7420F01CCBCB5 /* NSAppleEventDescriptor+NDAppleScriptObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F54434FA02A7403F01CCBCB5 /* NSAppleEventDescriptor+NDAppleScriptObject.h */; };
-		F544352B02A7421101CCBCB5 /* NDResourceFork.h in Headers */ = {isa = PBXBuildFile; fileRef = F54434F902A7403F01CCBCB5 /* NDResourceFork.h */; };
-		F544352C02A7421201CCBCB5 /* NDAppleScriptObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F54434F802A7403F01CCBCB5 /* NDAppleScriptObject.h */; };
-		F544352D02A7421301CCBCB5 /* NDAppleScriptObject_Protocols.h in Headers */ = {isa = PBXBuildFile; fileRef = F54434F702A7403F01CCBCB5 /* NDAppleScriptObject_Protocols.h */; };
-		F549D1CA02C2F6AA01CCBCB5 /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = F549D1C802C2F6AA01CCBCB5 /* Globals.m */; };
-		F549D1CB02C2F6AA01CCBCB5 /* Globals.h in Headers */ = {isa = PBXBuildFile; fileRef = F549D1C902C2F6AA01CCBCB5 /* Globals.h */; };
-		F550C02802C1AC5901CCBCB6 /* ChatWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C062B4017B8B0F01A80014 /* ChatWindowController.m */; };
-		F558605301ED070F01A80014 /* TextFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = F558605101ED070F01A80014 /* TextFinder.h */; };
-		F558605401ED070F01A80014 /* TextFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = F558605201ED070F01A80014 /* TextFinder.m */; };
-		F558605701ED073A01A80014 /* FindPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = F558605501ED073A01A80014 /* FindPanel.nib */; };
-		F55F72D2029C9A4A01A80028 /* URLTextViewHand.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F55F72D1029C9A4A01A80028 /* URLTextViewHand.tiff */; };
-		F56204AA01E4056201A80014 /* About.nib in Resources */ = {isa = PBXBuildFile; fileRef = F56204A801E4056201A80014 /* About.nib */; };
-		F56204AD01E409CF01A80014 /* AboutBoxController.h in Headers */ = {isa = PBXBuildFile; fileRef = F56204AB01E409CF01A80014 /* AboutBoxController.h */; };
-		F56204AE01E409CF01A80014 /* AboutBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56204AC01E409CF01A80014 /* AboutBoxController.m */; };
-		F565F34502AB355A01CCBCB6 /* mail.icns in Resources */ = {isa = PBXBuildFile; fileRef = F565F34402AB355A01CCBCB6 /* mail.icns */; };
-		F565F75802AB91C601CCBCB6 /* NickChooseController.h in Headers */ = {isa = PBXBuildFile; fileRef = F58382390203512C01D8513E /* NickChooseController.h */; };
-		F565F75902AB91C801CCBCB6 /* NickChooseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F583823A0203512C01D8513E /* NickChooseController.m */; };
-		F56E661002988C5601A80014 /* DrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EE7DFD015D080501000001 /* DrawerController.h */; };
-		F571A60802BB4DE801000104 /* OMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D029FB028D893301A80028 /* OMTableView.m */; };
-		F571A60902BB4DEA01000104 /* OMTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D029FA028D893301A80028 /* OMTableView.h */; };
-		F5726FD602AC8A2A01CCBCB6 /* livePrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5726FD402AC8A2A01CCBCB6 /* livePrefsController.m */; };
-		F5726FD702AC8A2A01CCBCB6 /* livePrefsController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5726FD502AC8A2A01CCBCB6 /* livePrefsController.h */; };
-		F5726FDA02AC9E5001CCBCB6 /* join.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F5726FD802AC9E5001CCBCB6 /* join.aiff */; };
-		F5726FDB02AC9E5001CCBCB6 /* kick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F5726FD902AC9E5001CCBCB6 /* kick.aiff */; };
-		F5726FDD02AC9E6101CCBCB6 /* leave.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F5726FDC02AC9E6101CCBCB6 /* leave.aiff */; };
-		F5761D7D02A0EEE701CCBCB6 /* Users.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5761D7B02A0EEE701CCBCB6 /* Users.tiff */; };
-		F5761D8002A0EFA701CCBCB6 /* Update.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5761D7F02A0EFA701CCBCB6 /* Update.tiff */; };
-		F579F96002D160A20100010D /* EmoticonController.h in Headers */ = {isa = PBXBuildFile; fileRef = F579F95E02D160A20100010D /* EmoticonController.h */; };
-		F579F96102D160A20100010D /* EmoticonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F579F95F02D160A20100010D /* EmoticonController.m */; };
-		F57D3D0602048D8C01218F52 /* PrivateMessage.nib in Resources */ = {isa = PBXBuildFile; fileRef = F57D3D0402048D8C01218F52 /* PrivateMessage.nib */; };
-		F57D3D0A02048FEF01218F52 /* PrivWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57D3D0702048FEF01218F52 /* PrivWindowController.m */; };
-		F58382370203506601D8513E /* NickChoose.nib in Resources */ = {isa = PBXBuildFile; fileRef = F58382350203506601D8513E /* NickChoose.nib */; };
-		F588679902A234B701CCBCB6 /* prefs.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F588679802A234B701CCBCB6 /* prefs.tiff */; };
-		F58867A102A23BBC01CCBCB6 /* ReadMe.icns in Resources */ = {isa = PBXBuildFile; fileRef = F58867A002A23BBC01CCBCB6 /* ReadMe.icns */; };
-		F593F7B702C0272E01CCBCB6 /* BuddyListController.h in Headers */ = {isa = PBXBuildFile; fileRef = F593F7B602C0272E01CCBCB6 /* BuddyListController.h */; };
-		F593F7B902C0273801CCBCB6 /* BuddyListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F593F7B802C0273801CCBCB6 /* BuddyListController.m */; };
-		F59730F701A6D8F501A80014 /* IRCController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59730F501A6D8F501A80014 /* IRCController.m */; };
-		F5A0FC7101DA537B01A80014 /* SheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B96EAC01CD68BC01A80014 /* SheetController.h */; };
-		F5B378AF0177A9DC01A80014 /* PrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B378AC0177A9DC01A80014 /* PrefController.m */; };
-		F5B96EAF01CD68BC01A80014 /* SheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B96EAD01CD68BC01A80014 /* SheetController.m */; };
-		F5BF9A1202A2087A01CCBCB6 /* Network.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5BF9A1102A2087A01CCBCB6 /* Network.tiff */; };
-		F5C062B5017B8B0F01A80014 /* ChatWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C062B3017B8B0F01A80014 /* ChatWindowController.h */; };
-		F5C34B320179055C01A80014 /* DrawerButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C34B300179055C01A80014 /* DrawerButtonController.h */; };
-		F5C34B330179055C01A80014 /* DrawerButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C34B310179055C01A80014 /* DrawerButtonController.m */; };
-		F5D00DF402A4E37901CCBCB5 /* msg.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F5D00DF302A4E37901CCBCB5 /* msg.aiff */; };
-		F5D044FD02CB011B0100010D /* PrivWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F57D3D0802048FEF01218F52 /* PrivWindowController.h */; };
-		F5D0450002CB231A0100010D /* TSAttributedStringFormattingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D044FE02CB231A0100010D /* TSAttributedStringFormattingAdditions.h */; };
-		F5D0450102CB231A0100010D /* TSAttributedStringFormattingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D044FF02CB231A0100010D /* TSAttributedStringFormattingAdditions.m */; };
-		F5E0773002AE31ED0100010C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E0769D02AE31ED0100010C /* Carbon.framework */; };
-		F5EE7DFF015D080501000001 /* DrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE7DFC015D080501000001 /* DrawerController.m */; };
-		F5F75C3801D7DAEB01A80014 /* Info.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5F75C3601D7DAEB01A80014 /* Info.nib */; };
-		F5F75C3F01D7E85401A80014 /* InfoPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F75C3D01D7E85401A80014 /* InfoPanelController.h */; };
-		F5F75C4001D7E85401A80014 /* InfoPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F75C3E01D7E85401A80014 /* InfoPanelController.m */; };
-		F725070902C6607E01000106 /* buddy on.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F725070702C6607E01000106 /* buddy on.aiff */; };
-		F725070A02C6607E01000106 /* buddy off.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F725070802C6607E01000106 /* buddy off.aiff */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		313FA33C10F50CE600E9D065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* Sparkle.framework */;
+			remoteInfo = Sparkle;
+		};
+		313FA33E10F50CE600E9D065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 61B5F90209C4CEE200B25A18 /* Sparkle Test App.app */;
+			remoteInfo = "Sparkle Test App";
+		};
+		313FA34010F50CE600E9D065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAAEFC960DA571DF0051E0D0 /* relaunch */;
+			remoteInfo = "relaunch tool";
+		};
+		313FA34210F50CE600E9D065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 612279D90DB5470200AB99EA /* Sparkle Unit Tests.octest */;
+			remoteInfo = "Sparkle Unit Tests";
+		};
+		313FA34910F50D0E00E9D065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* Sparkle */;
+			remoteInfo = Sparkle;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		17587328FF379C6511CA2CBB /* #Macintosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "#Macintosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sparkle.xcodeproj; path = ../Sparkle/Sparkle.xcodeproj; sourceTree = SOURCE_ROOT; };
 		316334E210F0B0CE006BA354 /* Info-OpenMac__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-OpenMac__Upgraded_.plist"; sourceTree = "<group>"; };
 		316334E310F0B0CE006BA354 /* #Macintosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#Macintosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3163351710F0B636006BA354 /* LSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTextView.h; sourceTree = "<group>"; };
@@ -394,21 +275,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29B9732DFDCFA39411CA2CEA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1058C7A3FEA54F0111CA2CBB /* Cocoa.framework in Frameworks */,
-				F5E0773002AE31ED0100010C /* Carbon.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		316334DB10F0B0CE006BA354 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				316334DC10F0B0CE006BA354 /* Cocoa.framework in Frameworks */,
 				316334DD10F0B0CE006BA354 /* Carbon.framework in Frameworks */,
+				313FA34610F50CF500E9D065 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +321,6 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17587328FF379C6511CA2CBB /* #Macintosh.app */,
 				316334E310F0B0CE006BA354 /* #Macintosh.app */,
 			);
 			name = Products;
@@ -457,6 +329,7 @@
 		29B97314FDCFA39411CA2CEA /* OpenMac */ = {
 			isa = PBXGroup;
 			children = (
+				313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */,
 				F550C48C02C3F77401CCBCB6 /* Read Me! Important Info!.rtf */,
 				F549D1C802C2F6AA01CCBCB5 /* Globals.m */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -498,6 +371,17 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		313FA33210F50CE600E9D065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				313FA33D10F50CE600E9D065 /* Sparkle.framework */,
+				313FA33F10F50CE600E9D065 /* Sparkle Test App.app */,
+				313FA34110F50CE600E9D065 /* relaunch */,
+				313FA34310F50CE600E9D065 /* Sparkle Unit Tests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F5059C7902ED0D8001CCBCB6 /* emoticons */ = {
@@ -693,42 +577,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29B97327FDCFA39411CA2CEA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5C34B320179055C01A80014 /* DrawerButtonController.h in Headers */,
-				F5C062B5017B8B0F01A80014 /* ChatWindowController.h in Headers */,
-				F5F75C3F01D7E85401A80014 /* InfoPanelController.h in Headers */,
-				F5A0FC7101DA537B01A80014 /* SheetController.h in Headers */,
-				F502354101DFE87701A80014 /* NickRegController.h in Headers */,
-				F508CEA501E0061E01A80014 /* IRCController.h in Headers */,
-				F56204AD01E409CF01A80014 /* AboutBoxController.h in Headers */,
-				F558605301ED070F01A80014 /* TextFinder.h in Headers */,
-				F56E661002988C5601A80014 /* DrawerController.h in Headers */,
-				F53E403C029DAAEF01A80028 /* URLMutableAttributedString.h in Headers */,
-				F53E4040029DAC0F01A80028 /* URLTextView.h in Headers */,
-				F52B508302A4FBAC01CCBCB5 /* PrefController.h in Headers */,
-				F544352902A7420E01CCBCB5 /* NSURL+NDCarbonUtilities.h in Headers */,
-				F544352A02A7420F01CCBCB5 /* NSAppleEventDescriptor+NDAppleScriptObject.h in Headers */,
-				F544352B02A7421101CCBCB5 /* NDResourceFork.h in Headers */,
-				F544352C02A7421201CCBCB5 /* NDAppleScriptObject.h in Headers */,
-				F544352D02A7421301CCBCB5 /* NDAppleScriptObject_Protocols.h in Headers */,
-				F565F75802AB91C601CCBCB6 /* NickChooseController.h in Headers */,
-				F5726FD702AC8A2A01CCBCB6 /* livePrefsController.h in Headers */,
-				F571A60902BB4DEA01000104 /* OMTableView.h in Headers */,
-				F50B438C02BEAD9301CCBCB6 /* Utils.h in Headers */,
-				F593F7B702C0272E01CCBCB6 /* BuddyListController.h in Headers */,
-				F549D1CB02C2F6AA01CCBCB5 /* Globals.h in Headers */,
-				F5D044FD02CB011B0100010D /* PrivWindowController.h in Headers */,
-				F5D0450002CB231A0100010D /* TSAttributedStringFormattingAdditions.h in Headers */,
-				F579F96002D160A20100010D /* EmoticonController.h in Headers */,
-				F502ACEE034424880189B465 /* SendDataController.h in Headers */,
-				F502D706036BC3AE01CCBCB5 /* AIKeychain.h in Headers */,
-				33536195042C7A9000A4787A /* LSTextViewCat.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3163346F10F0B0CE006BA354 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -776,6 +624,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				313FA34A10F50D0E00E9D065 /* PBXTargetDependency */,
 			);
 			name = "OpenMac (Upgraded)";
 			productName = OpenMac;
@@ -800,69 +649,51 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* OpenMac */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 313FA33210F50CE600E9D065 /* Products */;
+					ProjectRef = 313FA33110F50CE600E9D065 /* Sparkle.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3163346E10F0B0CE006BA354 /* OpenMac (Upgraded) */,
-				29B97326FDCFA39411CA2CEA /* OpenMac */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		29B97328FDCFA39411CA2CEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				080E96DCFE201CFB7F000001 /* MainMenu.nib in Resources */,
-				089C165EFE840E0CC02AAC07 /* InfoPlist.strings in Resources */,
-				F5F75C3801D7DAEB01A80014 /* Info.nib in Resources */,
-				F502353901DFDFC801A80014 /* LeftArrow.tiff in Resources */,
-				F502353B01DFDFD501A80014 /* RightArrow.tiff in Resources */,
-				F502353E01DFE04801A80014 /* NickRegistration.nib in Resources */,
-				F56204AA01E4056201A80014 /* About.nib in Resources */,
-				F558605701ED073A01A80014 /* FindPanel.nib in Resources */,
-				F58382370203506601D8513E /* NickChoose.nib in Resources */,
-				F57D3D0602048D8C01218F52 /* PrivateMessage.nib in Resources */,
-				F55F72D2029C9A4A01A80028 /* URLTextViewHand.tiff in Resources */,
-				F5761D7D02A0EEE701CCBCB6 /* Users.tiff in Resources */,
-				F5761D8002A0EFA701CCBCB6 /* Update.tiff in Resources */,
-				F5BF9A1202A2087A01CCBCB6 /* Network.tiff in Resources */,
-				F588679902A234B701CCBCB6 /* prefs.tiff in Resources */,
-				F58867A102A23BBC01CCBCB6 /* ReadMe.icns in Resources */,
-				F5D00DF402A4E37901CCBCB5 /* msg.aiff in Resources */,
-				F52B508602A4FCF601CCBCB5 /* ping.aiff in Resources */,
-				F52B508702A4FCF601CCBCB5 /* notice.aiff in Resources */,
-				F565F34502AB355A01CCBCB6 /* mail.icns in Resources */,
-				F5726FDA02AC9E5001CCBCB6 /* join.aiff in Resources */,
-				F5726FDB02AC9E5001CCBCB6 /* kick.aiff in Resources */,
-				F5726FDD02AC9E6101CCBCB6 /* leave.aiff in Resources */,
-				F50A420602C07B8101CCBCB6 /* onlineDot.tiff in Resources */,
-				F50A420702C07B8101CCBCB6 /* offlineDot.tiff in Resources */,
-				F725070902C6607E01000106 /* buddy on.aiff in Resources */,
-				F725070A02C6607E01000106 /* buddy off.aiff in Resources */,
-				F5059C7802ECFA5A01CCBCB6 /* Emoticon.tif in Resources */,
-				F5059CA202ED0D8001CCBCB6 /* angel.tif in Resources */,
-				F5059CA402ED0D8001CCBCB6 /* biggrin.tif in Resources */,
-				F5059CA802ED0D8001CCBCB6 /* concerned.tif in Resources */,
-				F5059CA902ED0D8001CCBCB6 /* confused.tif in Resources */,
-				F5059CAA02ED0D8001CCBCB6 /* cool.tif in Resources */,
-				F5059CAC02ED0D8001CCBCB6 /* cry.tif in Resources */,
-				F5059CAD02ED0D8001CCBCB6 /* devil.tif in Resources */,
-				F5059CAE02ED0D8001CCBCB6 /* drool.tif in Resources */,
-				F5059CB202ED0D8001CCBCB6 /* garsh.tif in Resources */,
-				F5059CB702ED0D8001CCBCB6 /* love.tif in Resources */,
-				F5059CBE02ED0D8001CCBCB6 /* sad.tif in Resources */,
-				F5059CBF02ED0D8001CCBCB6 /* smile.tif in Resources */,
-				F5059CC302ED0D8001CCBCB6 /* tounge.tif in Resources */,
-				F5059CC502ED0D8001CCBCB6 /* wink.tif in Resources */,
-				4CD94510041CCEFE00A80055 /* macintosh-logo-irc.tif in Resources */,
-				4C23644D041CD36200A80055 /* Localizable.strings in Resources */,
-				4C2AF0CA04207C3D00A80055 /* macintosh.icns in Resources */,
-				4C8B8101042C8A3500A80055 /* ReadMe.rtfd in Resources */,
-				4C2F9783042C934F00A80055 /* oh.tif in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXReferenceProxy section */
+		313FA33D10F50CE600E9D065 /* Sparkle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Sparkle.framework;
+			remoteRef = 313FA33C10F50CE600E9D065 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		313FA33F10F50CE600E9D065 /* Sparkle Test App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Sparkle Test App.app";
+			remoteRef = 313FA33E10F50CE600E9D065 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		313FA34110F50CE600E9D065 /* relaunch */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = relaunch;
+			remoteRef = 313FA34010F50CE600E9D065 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		313FA34310F50CE600E9D065 /* Sparkle Unit Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Sparkle Unit Tests.octest";
+			remoteRef = 313FA34210F50CE600E9D065 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
 		3163348D10F0B0CE006BA354 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -920,42 +751,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29B9732BFDCFA39411CA2CEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29B9732CFDCFA39411CA2CEA /* main.m in Sources */,
-				F5EE7DFF015D080501000001 /* DrawerController.m in Sources */,
-				F5B378AF0177A9DC01A80014 /* PrefController.m in Sources */,
-				F5C34B330179055C01A80014 /* DrawerButtonController.m in Sources */,
-				F59730F701A6D8F501A80014 /* IRCController.m in Sources */,
-				F5B96EAF01CD68BC01A80014 /* SheetController.m in Sources */,
-				F5F75C4001D7E85401A80014 /* InfoPanelController.m in Sources */,
-				F502354201DFE87701A80014 /* NickRegController.m in Sources */,
-				F56204AE01E409CF01A80014 /* AboutBoxController.m in Sources */,
-				F558605401ED070F01A80014 /* TextFinder.m in Sources */,
-				F57D3D0A02048FEF01218F52 /* PrivWindowController.m in Sources */,
-				F53E403D029DAAEF01A80028 /* URLMutableAttributedString.m in Sources */,
-				F53E4041029DAC0F01A80028 /* URLTextView.m in Sources */,
-				F544350902A7409401CCBCB5 /* NSAppleEventDescriptor+NDAppleScriptObject.m in Sources */,
-				F544350A02A7409401CCBCB5 /* NSURL+NDCarbonUtilities.m in Sources */,
-				F544352702A7420D01CCBCB5 /* NDResourceFork.m in Sources */,
-				F544352802A7420E01CCBCB5 /* NDAppleScriptObject.m in Sources */,
-				F565F75902AB91C801CCBCB6 /* NickChooseController.m in Sources */,
-				F5726FD602AC8A2A01CCBCB6 /* livePrefsController.m in Sources */,
-				F571A60802BB4DE801000104 /* OMTableView.m in Sources */,
-				F50B438E02BEADA401CCBCB6 /* Utils.m in Sources */,
-				F593F7B902C0273801CCBCB6 /* BuddyListController.m in Sources */,
-				F550C02802C1AC5901CCBCB6 /* ChatWindowController.m in Sources */,
-				F549D1CA02C2F6AA01CCBCB5 /* Globals.m in Sources */,
-				F5D0450102CB231A0100010D /* TSAttributedStringFormattingAdditions.m in Sources */,
-				F579F96102D160A20100010D /* EmoticonController.m in Sources */,
-				F502ACEF034424880189B465 /* SendDataController.m in Sources */,
-				F502D707036BC3AE01CCBCB5 /* AIKeychain.m in Sources */,
-				33536196042C7A9000A4787A /* LSTextViewCat.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		316334BD10F0B0CE006BA354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -989,6 +784,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		313FA34A10F50D0E00E9D065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sparkle;
+			targetProxy = 313FA34910F50D0E00E9D065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
@@ -1157,76 +960,6 @@
 			};
 			name = Default;
 		};
-		4C5A7C3408CA18F700D79DBF /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUGGING_SYMBOLS = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				HEADER_SEARCH_PATHS = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "#Macintosh";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		4C5A7C3508CA18F700D79DBF /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUGGING_SYMBOLS = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				HEADER_SEARCH_PATHS = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "#Macintosh";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		4C5A7C3608CA18F700D79DBF /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUGGING_SYMBOLS = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "#Macintosh";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
-			name = Default;
-		};
 		4C5A7C3808CA18F700D79DBF /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1261,16 +994,6 @@
 				316334DF10F0B0CE006BA354 /* Development */,
 				316334E010F0B0CE006BA354 /* Deployment */,
 				316334E110F0B0CE006BA354 /* Default */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
-		};
-		4C5A7C3308CA18F700D79DBF /* Build configuration list for PBXApplicationTarget "OpenMac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C5A7C3408CA18F700D79DBF /* Development */,
-				4C5A7C3508CA18F700D79DBF /* Deployment */,
-				4C5A7C3608CA18F700D79DBF /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
