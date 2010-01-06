@@ -1,0 +1,273 @@
+// the Emoticons Button
+"Show/Hide Emoticons Window" = "Vis/skjul vinduet med smileys";
+"Emoticons" = "Smileys";
+"Show the Emoticons Window" = "Viser vinduet med smileys";
+
+// the connect button
+"Connect/Disconnect" = "Tilslut/Afbryd";
+"Connect" = "Tilslut";
+"Connect to" = "Tilslut til %@";
+
+// the UserList Button
+"User Options" = "Brugervalg";
+"Options" = "Valg";
+"Show the User Options" = "Viser brugervalg";
+"Hide the User Options" = "Skjuler brugervalg";
+
+// the Preferences button
+"Open Preferences" = "Viser indstillinger";
+"Preferences" = "Indstillinger";
+"Tweak your settings" = "Tilret dine indstillinger";
+
+// the Update Button
+"Check for Update" = "Søg efter opdatering";
+"Update" = "Opdatér";
+"See if there is a new version" = "Undersøger om der er en ny version tilgængelig";
+
+// the ReadMe Button
+"View ReadMe" = "Læs mig";
+"ReadMe" = "Læs mig";
+"View Readme file" = "Viser %@ introduktionen";
+
+// the rest
+"Disconnect" = "Afbryd";
+"Disconnect from" = "Afbryd fra %@";
+
+"Connect" = "Tilslut";
+
+"About %@" = "Om %@";
+
+"Quit %@" = "Slut %@";
+
+"Hide %@" = "Skjul %@";
+
+"%@ Help" = "%@ hjælp";
+
+"Show User Options" = "Vis brugervalg";
+"Hide User Options" = "Skjul brugervalg";
+"Show Emoticons" = "Vis smileys";
+"Hide Emoticons" = "Skjul smileys";
+
+"Automatically connect" = "Tilslut automatisk når %@ klienten startes";
+
+"what x characters looks like" = "%@: således ser en afkortning ved %i karakterer ud";
+
+"indent of characters" = "%@ %@ benytter en indrykning på %i karakterer";
+
+"version checker was unable to connect" = "Den indbyggede softwareopdatering kunne ikke oprette forbindelse til serveren med versionsoplysninger. Undersøg venligst om din internetforbindelse virker, og prøv igen. Hvis det stadig ikke virker, så prøv at besøge %@ og se om der er en ny version tilgængelig. (Fejl 1: Forbindelsesfejl) \r\n";
+
+"error 2 while checking the current version" = "Der opstod en fejl ved undersøgelse af den nuværende version. Hent venligst nyeste version af %@ ved at besøge %@ . (Fejl 2: Versionsarkiv har forkert format)\r\n";
+
+"error 3 while checking the current version" = "Der opstod en fejl ved undersøgelse af den nuværende version. Hent venligst nyeste version af %@ ved at besøge %@ . (Fejl 3: Versionsarkiv har forkert format)\r\n";
+
+"new version available" = "En ny version af %@ er tilgængelig: %@, offentliggjort den %@. Du kan hente den på %@ . %@\r\n";
+
+"You already have the latest version" = "Du har allerede nyeste version af %@.\r\n";
+
+"Remove from Buddies" = "Fjern fra venne-liste";
+
+"Add to Buddy List" = "Tilføj venne-liste";
+
+"Unignore" = "Ignorér ikke";
+
+"Ignore" = "Ignorér";
+
+"Nobody is selected" = "Ingen er valgt";
+
+"checked your version" = "%@ undersøgte hvilken version af %@ du bruger.\r\n";
+
+"checked your lag delay" = "%@ undersøgte din forsinkelse.\r\n";
+
+"checked to see that you realy are running" = "%@ undersøgte om du virkelig bruger %@. (USERINFO)\r\n";
+
+"yes i realy am using" = "NOTICE %@ :USERINFO ja, jeg bruger altså %@!";
+
+"checked what ctcp commands you responds too" = "%@ undersøgte hvilke ctcp kommandoer %@ svarer på. (CLIENTINFO)\r\n";
+
+"checked your time" = "%@ undersøgte din tidszone. (TIME)\r\n";
+
+"The delay between" = "Forsinkelsen mellem dig og %@ er %@.\r\n";
+
+"You joined" = "*** Du deltager nu i %@.\r\n";
+
+"buddy has joined" = "*** Din ven %@ deltager nu i %@!\r\n";
+
+"has joined" = "*** %@ deltager nu i %@.\r\n";
+
+"You left" = "*** Du forlod %@.\r\n";
+
+"left" = "*** %@ forlod %@.\r\n";
+
+"left (partmsg)" = "*** %@ forlod %@ (%@).\r\n";
+
+"has set the topic to" = "*** %@ har ændret emnet til: %@\r\n";
+
+"marked as being away" = "*** Du er markeret som værende væk fra %@.\r\n";
+
+"no longer marked as being away" = "*** Du er ikke længere markeret som værende væk fra %@.\r\n";
+
+"Unknown command" = "*** Ukendt kommando: %@.\r\n";
+
+"nickname is not allowed" = "*** Dette kaldenavn er ikke tilladt. Prøv et med mere almindelige tegn i stedet (danske tegn kan ikke benyttes).\r\n";
+
+"nick syntax" = "*** Syntaks: /nick nytkaldenavn.\r\n";
+
+"notice syntax" = "*** Syntaks: /notice kaldenavn minbesked.\r\n";
+
+"You were kicked" = "*** Du blev sparket ud fra %@ af %@.\r\n";
+
+"You were kicked (reason)" = "*** Du blev smidt ud fra %@ af %@. (%@).\r\n";
+
+"was kicked" = "*** %@ blev smidt ud fra %@ af %@.\r\n";
+
+"was kicked (reason)" = "*** %@ blev smidt ud fra %@ af %@ (%@).\r\n";
+
+"You are now" = "*** Du hedder nu %@.\r\n";
+
+"is now" = "*** %@ hedder nu %@.\r\n";
+
+"Your Host is" = "Din server er %@. Nyd dit besøg! :)\r";
+
+"topic is locked" = "*** Emnet i %@ er i øjeblikket låst.\r\n";
+
+"topic is unlocked" = "*** Emnet i %@ er i øjeblikket frit. Skriv /topic for at ændre chattens emne i bunden af vinduet.\r\n";
+
+"moderation mode" = "*** %@ er i øjeblikket modereret. Brugere må kun skrive i chatten med tilladelse fra en %@ bestyrer.\r\n";
+
+"granted operator status" = "*** Du er blevet tildelt bestyrer-status af %@. Desværre undersøtter %@ klienten ingen af bestyrer-kommandoerne, men du kan jo altid prale med den røde farve :)\r\n";
+
+"became operator" = "*** %@ blev bestyrer for %@.\r\n";
+
+"striped you of your Operator Status" = "*** %@ har taget bestyrer-status fra dig. (ikke at du kunne bruge den til noget videre alligevel...)\r\n";
+
+"was deopped" = "*** %@ er ikke længere bestyrer.\r\n";
+
+"You have been banned" = "*** Du er blevet bortvist fra %@ af %@.\r\n*** Læs venligst retningslinerne for %@ igennem på %@\r\n";
+
+"has been banned" = "*** %@ har bortvist %@ fra %@.\r\n";
+
+"Your ban has been lifted" = "*** Din bortvisning fra %@ er blevet hævet af %@\r\n";
+
+"has been unbanned" = "*** %@ bortviser ikke længere %@ fra %@.\r\n";
+
+"You have been gagged" = "*** Du er blevet bortvist af %@.r\n*** Læs venligst retningslinerne for %@ igennem på %@\r\n";
+
+"was gagged" = "*** %@ blev bortvist af %@.\r\n";
+
+"You have been ungagged" = "*** Din bortvisning er hævet af %@. Har du lært din lektie?\r\n";
+
+"was ungagged" = "*** %@ bortvisning blev hævet af %@.\r\n";
+
+"You were given a voice" = "*** Du har fået ret til at skrive af %@. Du kan nu frit skrive i chatten, selv når %@ er modereret. :)\r\n";
+
+"was given a voice" = "*** %@ fik ret til at skrive af %@.\r\n";
+
+"has removed your voice" = "*** %@ har fjernet din ret til at skrive.\r\n";
+
+"had their voice taken" = "*** %@ fik fjernet sin ret til at skrive af %@.\r\n";
+
+"is now in moderation mode" = "*** %@ er i øjeblikket modereret. Brugere må kun skrive i chatten med tilladelse fra en %@ bestyrer.\r\n";
+
+"is no longer in moderation mode" = "*** %@ er ikke modereret længere. Nyd din frihed til at ytre din mening :)\r\n";
+
+"has locked the topic" = "*** %@ har låst %@ emnet.\r\n";
+
+"has unlocked the topic" = "*** %@ har frigjort %@ emnet. Brug /topic for at ændre chattens emne i bunden af vinduet.\r\n";
+
+"Mode change" = "Mode change %@ af %@.\r\n";
+
+"checked what you are listening to" = "%@ undersøgte hvad du lytter til.\r\n";
+
+"iTunes is not currently playing any music" = "NOTICE %@ :\001iTunes %@ afspiller ingen musik i øjeblikket\001";
+
+"iTunes is listening to" = "NOTICE %@ :\001iTunes %@ lytter til %@\001";
+
+"iTunes is by" = "NOTICE %@ :\001iTunes %@ af %@\001";
+
+"iTunes from the album" = "NOTICE %@ :\001iTunes %@ fra albumet %@\001";
+
+"iTunes is a live stream" = "NOTICE %@ :\001iTunes %@ er en netradio, tjek den selv ud i din egen iTunes.\001";
+
+"iTunes is long" = "NOTICE %@ :\001iTunes %@ er %@ lang\001";
+
+"iTunes is running at" = "NOTICE %@ :\001iTunes %@ afspiller i %ikbps, så sangen må derfor fylde %@MB\001";
+
+"iTunes has rated" = "NOTICE %@ :\001iTunes %@ har vurderet %@ til %u stjerner\001";
+
+"unsupported version of iTunes" = "NOTICE %@ :\001iTunes %@ lytter til musik på en ikke understøttet version af iTunes\001";
+
+"iTunes is not listening to any music right now" = "NOTICE %@ :\001iTunes %@ lytter ikke til noget musik lige nu\001";
+
+"Are you sure you want to quit" = "Er du sikker på du ønsker at slutte?";
+
+"Quit-button" = "Slut";
+
+"Cancel" = "Annuller";
+
+"You are still connected" = "Du er stadig tilsluttet %@ serveren. Har du husket at sige pænt farvel?";
+
+"reqinfo - System Version" = "NOTICE %@ :\001GESTALT Systemversion: %@\001";
+
+"reqinfo - Computer" = "NOTICE %@ :\001GESTALT Modelnavn: %@\001";
+
+"reqinfo - Clock Speed" = "NOTICE %@ :\001GESTALT Processorhastighed: %@\001";
+
+"reqinfo - Memory Installed" = "NOTICE %@ :\001GESTALT RAM mængde: %@\001";
+
+"reqinfo sent" = "%@ forespurgte information om din computer, og fik lov til at se det.\r\n";
+
+"reqinfo denied" = "NOTICE %@ :\001GESTALT Forespørgsel afvist\001";
+
+"reqinfo was denied" = "%@ forespurgte information om din computer, men blev afvist.\r\n";
+
+"reqinfo asking for permission" = "NOTICE %@ :\001GESTALT spørger %@ om tilladelse til at sende computer information\001";
+
+"reqinfo unrecognized computer" = "Kunne ikke genkende computeren udfra følgende helhed \"%@\"";
+
+"reqinfo unable to determine" = "Kunne ikke genkende systemversionen";
+
+"reqinfo sent (gestalt)" = "%@ forespurgte information om din computer, og fik lov til at se det. (helhed)\r\n";
+
+"Please choose a nickname to use in %@ (you can change it later in the preferences).\r\rIf you have already chosen a nickname with a previous version, please ignore this message. The nickname you have been using should already be in the text box below." = "Vælg det kaldenavn du ønsker at bruge i %@ (du kan senere ændre det via indstillingerne).\r\rHvis du allerede har valgt et kaldenavn i en tidligere version, bedes du venligst se bort fra denne besked. Kaldenavnet du har brugt skulle i såfald gerne stå herunder.";
+
+"Connecting to %@...\r\n" = "Tilslutter %@...\r\n";
+
+"Looking up %@...\r\n" = "Finder frem til %@...\r\n";
+
+"Connected to %@. Please wait...\r\n" = "Tilsluttet %@. Vent venligst...\r\n";
+
+"*** Disconnected.\r\n" = "*** Forbindelsen er afbrudt.\r\n";
+
+"%d day" = "%d dag"; // day
+"days" = "e"; // add behind day when more then one
+
+"%d hour" = "%d time"; // hour
+"hours" = "r"; // add behind hour when more than one
+
+"%d minute" = "%d minut"; // minute
+"minutes" = "ter"; // add behind minute when more than one
+
+"%d second" = "%d sekund"; // second
+"seconds" = "er"; // add behind second when more then one
+
+" and " = " og ";
+", and " = ", og ";
+
+"Private chat with %@" = "Privat chat med %@";
+
+/* Smileys names */
+
+"*smile*" = "*smiler*";
+"*sad*" = "*trist*";
+"*cry*" = "*græder*";
+"*wink*" = "*blink*";
+"*tongue*" = "*rækker tunge*";
+"*oh*" = "*åh*";
+"*love*" = "*kærlig*";
+"*biggrin*" = "*latter*";
+"*confused*" = "*ubeslutsom*";
+"*cool*" = "*checket*";
+"*concerned*" = "*opmærksom*";
+"*devil*" = "*djævel*";
+"*angel*" = "*engel*";
+"*garsh*" = "*ups*";

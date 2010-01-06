@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {clarusClick = id; setVersion = id; urlClick = id; }; 
+            CLASS = AboutBoxController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {imageWell = NSImageView; versionBox = NSTextField; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

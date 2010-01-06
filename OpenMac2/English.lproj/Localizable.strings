@@ -1,0 +1,274 @@
+// the Emoticons Button
+"Show/Hide Emoticons Window" = "Show/Hide Emoticons Window";
+"Emoticons" = "Emoticons";
+"Show the Emoticons Window" = "Show the Emoticons Window";
+
+// the connect button
+"Connect/Disconnect" = "Connect/Disconnect";
+"Connect" = "Connect";
+"Connect to" = "Connect to %@";
+
+// the UserList Button
+"User Options" = "User Options";
+"Options" = "Options";
+"Show the User Options" = "Show the User Options";
+"Hide the User Options" = "Hide the User Options";
+
+// the Preferences button
+"Open Preferences" = "Open Preferences";
+"Preferences" = "Preferences";
+"Tweak your settings" = "Tweak your settings";
+
+// the Update Button
+"Check for Update" = "Check for Update";
+"Update" = "Update";
+"See if there is a new version" = "See if there is a new version with wiz-bang features";
+
+// the ReadMe Button
+"View ReadMe" = "View ReadMe";
+"ReadMe" = "ReadMe";
+"View Readme file" = "View the %@ Readme file";
+
+// the rest
+"Disconnect" = "Disconnect";
+"Disconnect from" = "Disconnect from %@";
+
+"Connect" = "Connect";
+
+"About %@" = "About %@";
+
+"Quit %@" = "Quit %@";
+
+"Hide %@" = "Hide %@";
+
+"%@ Help" = "%@ Help";
+
+"Show User Options" = "Show User Options";
+"Hide User Options" = "Hide User Options";
+"Show Emoticons" = "Show Emoticons";
+"Hide Emoticons" = "Hide Emoticons";
+
+"Automatically connect" = "Automatically connect when %@ is opened";
+
+"what x characters looks like" = "%@: this is what %i characters looks like";
+
+"indent of characters" = "%@ %@ is using an indent of %i characters";
+
+"version checker was unable to connect" = "The version checker was unable to connect to the version server. Please make sure that your internet connection is active and try again. If all else fails, check %@ to see if there is a new version available. (Error 1: Connection Failed) \r\n";
+
+"error 2 while checking the current version" = "There was an error while checking the current version. Please download the latest version of %@ by visiting %@ . (Error 2: version file mal-formated)\r\n";
+
+"error 3 while checking the current version" = "There was an error while checking the current version. Please download the latest version of %@ by visiting %@ . (Error 3: version file mal-formatted)\r\n";
+
+"new version available" = "There is a new version of %@ available: %@, released %@. You can download it at %@ . %@\r\n";
+
+"You already have the latest version" = "You already have the latest version of %@.\r\n";
+
+"Remove from Buddies" = "Remove from Buddies";
+
+"Add to Buddy List" = "Add to Buddy List";
+
+"Unignore" = "Unignore";
+
+"Ignore" = "Ignore";
+
+"Nobody is selected" = "Nobody is selected";
+
+"checked your version" = "%@ checked to see what version of %@ you're using.\r\n";
+
+"checked your lag delay" = "%@ checked your lag delay.\r\n";
+
+"checked to see that you realy are running" = "%@ checked to see that you realy are running %@. (USERINFO)\r\n";
+
+"yes i realy am using" = "NOTICE %@ :USERINFO yes i realy am using %@!";
+
+"checked what ctcp commands you responds too" = "%@ checked what ctcp commands %@ responds too. (CLIENTINFO)\r\n";
+
+"checked your time" = "%@ checked your time.(TIME)\r\n";
+
+"The delay between" = "The delay between you and %@ is %@.\r\n";
+
+"You joined" = "*** You joined %@.\r\n";
+
+"buddy has joined" = "*** Your buddy %@ has joined %@!\r\n";
+
+"has joined" = "*** %@ has joined %@.\r\n";
+
+"You left" = "*** You left %@.\r\n";
+
+"left" = "*** %@ left %@.\r\n";
+
+"left (partmsg)" = "*** %@ left %@ (%@).\r\n";
+
+"has set the topic to" = "*** %@ has set the topic to: %@\r\n";
+
+"marked as being away" = "*** You have been marked as being away from %@.\r\n";
+
+"no longer marked as being away" = "*** You are no longer marked as being away from %@.\r\n";
+
+"Unknown command" = "*** Unknown command: %@.\r\n";
+
+"nickname is not allowed" = "*** That nickname is not allowed. Try a nickname with fewer symbols in it instead.\r\n";
+
+"nick syntax" = "*** Syntax: /nick newnickname.\r\n";
+
+"notice syntax" = "*** Syntax: /notice nickname mymessage.\r\n";
+
+"You were kicked" = "*** You were kicked out of %@ by %@.\r\n";
+
+"You were kicked (reason)" = "*** You were kicked out of %@ by %@. (%@).\r\n";
+
+"was kicked" = "*** %@ was kicked out of %@ by %@.\r\n";
+
+"was kicked (reason)" = "*** %@ was kicked out of %@ by %@ (%@).\r\n";
+
+"You are now" = "*** You are now %@.\r\n";
+
+"is now" = "*** %@ is now %@.\r\n";
+
+"Your Host is" = "Your Host is %@. Enjoy your Stay! :)\r";
+
+"topic is locked" = "*** The %@ topic is currently locked down.\r\n";
+
+"topic is unlocked" = "*** The %@ topic is currently unlocked. Use /topic to change the chat topic at the bottem of the window.\r\n";
+
+"moderation mode" = "*** %@ is currently in moderation mode. Users may only speak with permission from a %@ operator.\r\n";
+
+"granted operator status" = "*** You were granted operator status by %@. Sadly the %@ client doesn't have any support for the operator commands, but you can admire your pretty red coat :)\r\n";
+
+"became operator" = "*** %@ became a %@ operator.\r\n";
+
+"striped you of your Operator Status" = "*** %@ has striped you of your Operator Status. (not that you could do anything with it anyway...)\r\n";
+
+"was deopped" = "*** %@ was deopped.\r\n";
+
+"You have been banned" = "*** You have been banned from %@ by %@.\r\n*** Please re-read the %@ guidlines at %@\r\n";
+
+"has been banned" = "*** %@ has been banned %@ from %@.\r\n";
+
+"Your ban has been lifted" = "*** Your ban from %@ has been lifted by %@, and you didn't even get kicked. \r\n";
+
+"has been unbanned" = "*** %@ has been unbanned %@ from %@.\r\n";
+
+"You have been gagged" = "*** You have been gagged by %@.r\n*** Please re-read the %@ guidlines at %@\r\n";
+
+"was gagged" = "*** %@ was gagged by %@.\r\n";
+
+"You have been ungagged" = "*** You have been ungagged by %@. Have you learned your lesson?\r\n";
+
+"was ungagged" = "*** %@ was ungagged by %@.\r\n";
+
+"You were given a voice" = "*** You were given a voice by %@. You can now freely talk, even when %@ is in moderation mode. :)\r\n";
+
+"was given a voice" = "*** %@ was given a voice by %@.\r\n";
+
+"has removed your voice" = "*** %@ has removed your voice.\r\n";
+
+"had their voice taken" = "*** %@ had their voice taken away by %@.\r\n";
+
+"is now in moderation mode" = "*** %@ is now in moderation mode. Users may only speak with permission from a %@ operator.\r\n";
+
+"is no longer in moderation mode" = "*** %@ is no longer in moderation mode. Enjoy your freedom of speech. :)\r\n";
+
+"has locked the topic" = "*** %@ has locked the %@ topic.\r\n";
+
+"has unlocked the topic" = "*** %@ has unlocked the %@ topic. Use /topic to change the chat topic at the bottem of the window.\r\n";
+
+"Mode change" = "Mode change %@ by %@.\r\n";
+
+"checked what you are listening to" = "%@ checked what you are listening to.\r\n";
+
+"iTunes is not currently playing any music" = "NOTICE %@ :\001iTunes %@ is not currently playing any music\001";
+
+"iTunes is listening to" = "NOTICE %@ :\001iTunes %@ is listening to %@\001";
+
+"iTunes is by" = "NOTICE %@ :\001iTunes %@ is by %@\001";
+
+"iTunes from the album" = "NOTICE %@ :\001iTunes %@ is from the album %@\001";
+
+"iTunes is a live stream" = "NOTICE %@ :\001iTunes %@ is a live stream, check your radio tuner.\001";
+
+"iTunes is long" = "NOTICE %@ :\001iTunes %@ is %@ long\001";
+
+"iTunes is running at" = "NOTICE %@ :\001iTunes %@ is running at %ikbps; therefore it must be %@MB\001";
+
+"iTunes has rated" = "NOTICE %@ :\001iTunes %@ has rated %@ %u stars\001";
+
+"unsupported version of iTunes" = "NOTICE %@ :\001iTunes %@ is listening to music on an unsupported version of iTunes\001";
+
+"iTunes is not listening to any music right now" = "NOTICE %@ :\001iTunes %@ is not listening to any music right now\001";
+
+"Are you sure you want to quit" = "Are you sure you want to quit?";
+
+"Quit-button" = "Quit";
+
+"Cancel" = "Cancel";
+
+"You are still connected" = "You are still connected to the %@ server. Have you said goodbye?";
+
+"reqinfo - System Version" = "NOTICE %@ :\001GESTALT System Version: %@\001";
+
+"reqinfo - Computer" = "NOTICE %@ :\001GESTALT Computer: %@\001";
+
+"reqinfo - Clock Speed" = "NOTICE %@ :\001GESTALT Clock Speed: %@\001";
+
+"reqinfo - Memory Installed" = "NOTICE %@ :\001GESTALT Memory Installed: %@\001";
+
+"reqinfo sent" = "%@ requested information about your computer and the information was sent.\r\n";
+
+"reqinfo denied" = "NOTICE %@ :\001GESTALT Request denied\001";
+
+"reqinfo was denied" = "%@ requested information about your computer and was denied.\r\n";
+
+"reqinfo asking for permission" = "NOTICE %@ :\001GESTALT asking %@ for permission to send Gestalt information\001";
+
+"reqinfo unrecognized computer" = "Unrecognized computer, with a Gestalt of \"%@\"";
+
+"reqinfo unable to determine" = "Unable to determine system version";
+
+"reqinfo sent (gestalt)" = "%@ requested information about your computer and the information was sent. (GESTALT)\r\n";
+
+"Please choose a nickname to use in %@ (you can change it later in the preferences).\r\rIf you have already chosen a nickname with a previous version, please ignore this message. The nickname you have been using should already be in the text box below." = "Please choose a nickname to use in %@ (you can change it later in the preferences).\r\rIf you have already chosen a nickname with a previous version, please ignore this message. The nickname you have been using should already be in the text box below.";
+
+"Connecting to %@...\r\n" = "Connecting to %@...\r\n";
+
+"Looking up %@...\r\n" = "Looking up %@...\r\n";
+
+"Connected to %@. Please wait...\r\n" = "Connected to %@. Please wait...\r\n";
+
+"*** Disconnected.\r\n" = "*** Disconnected.\r\n";
+
+
+"%d day" = "%d day"; // day
+"days" = "s"; // add behind day when more then one
+
+"%d hour" = "%d hour"; // hour
+"hours" = "s"; // add behind hour when more than one
+
+"%d minute" = "%d minute"; // minute
+"minutes" = "s"; // add behind minute when more than one
+
+"%d second" = "%d second"; // second
+"seconds" = "s"; // add behind second when more then one
+
+" and " = " and ";
+", and " = ", and ";
+
+"Private chat with %@" = "Private chat with %@";
+
+/* Smileys names */
+
+"*smile*" = "*smile*";
+"*sad*" = "*sad*";
+"*cry*" = "*cry*";
+"*wink*" = "*wink*";
+"*tongue*" = "*tongue*";
+"*oh*" = "*oh*";
+"*love*" = "*love*";
+"*biggrin*" = "*biggrin*";
+"*confused*" = "*confused*";
+"*cool*" = "*cool*";
+"*concerned*" = "*concerned*";
+"*devil*" = "*devil*";
+"*angel*" = "*angel*";
+"*garsh*" = "*garsh*";

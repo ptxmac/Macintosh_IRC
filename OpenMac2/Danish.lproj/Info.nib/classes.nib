@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {updateInfo = id; }; 
+            CLASS = InfoPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                hostNameField = NSTextField; 
+                idleField = NSTextField; 
+                infoPanel = NSWindow; 
+                nickNameField = NSTextField; 
+                realNameField = NSTextField; 
+                signedOnField = NSTextField; 
+                userNameField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

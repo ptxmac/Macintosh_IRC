@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = IRCController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                chatWindowController = ChatWindowController; 
+                drawerButtonController = DrawerButtonController; 
+                drawerController = DrawerController; 
+                prefController = PrefController; 
+                sheetController = SheetController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {sendPM = id; }; 
+            CLASS = PrivWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                ircController = IRCController; 
+                privScrollView = NSScrollView; 
+                privTextField = NSTextView; 
+                privTextView = NSTextView; 
+                utils = Utils; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = Utils; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

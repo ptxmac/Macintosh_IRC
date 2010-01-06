@@ -1,0 +1,339 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {buddyListRemove = id; }; 
+            CLASS = BuddyListController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                buddyButton = NSButton; 
+                buddyListMenu = NSMenu; 
+                buddyListTableView = NSTableView; 
+                buddyMenu = NSMenuItem; 
+                buddyRemoveButton = NSButton; 
+                buddyRemoveMenu = NSMenuItem; 
+                cwc = ChatWindowController; 
+                drawerButtonController = DrawerButtonController; 
+                ircController = IRCController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addCtrG = id; 
+                checkVersion = id; 
+                clearInput = id; 
+                connectClick = id; 
+                doSend = id; 
+                gotoGuidlines = id; 
+                gotoMessageBoard = id; 
+                gotoStatsPage = id; 
+                gotoSupport = id; 
+                gotoWebPage = id; 
+                openNickReg = id; 
+                selectInput = id; 
+                sendEmail = id; 
+                sendKiss = id; 
+                showAbout = id; 
+                showHelp = id; 
+                topicClick = id; 
+            }; 
+            CLASS = ChatWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutMenuItem = NSMenuItem; 
+                appMenu = NSMenuItem; 
+                buddyListController = BuddyListController; 
+                chatInputField = NSTextView; 
+                chatScrollView = NSScrollView; 
+                chatTextView = NSTextView; 
+                chatWindow = NSWindow; 
+                connectDockMenuItem = NSMenuItem; 
+                connectMenuItem = NSMenuItem; 
+                debuggerWindow = NSWindow; 
+                drawerButtonController = DrawerButtonController; 
+                drawerController = DrawerController; 
+                emoticonController = EmoticonController; 
+                helpMenuItem = NSMenuItem; 
+                hideMenuItem = NSMenuItem; 
+                ircController = IRCController; 
+                nickField = NSTextField; 
+                nickRegItem = NSMenuItem; 
+                prefController = PrefController; 
+                quitMenuItem = NSMenuItem; 
+                sendData = SendDataController; 
+                sheetController = SheetController; 
+                topicField = NSTextField; 
+                userListMenu = NSMenu; 
+                userListTableView = NSTableView; 
+                utils = Utils; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addBuddy = id; 
+                gestalt = id; 
+                getInfo = id; 
+                iTuens = id; 
+                ignore = id; 
+                ping = id; 
+                privateMessage = id; 
+                time = id; 
+                version = id; 
+            }; 
+            CLASS = DrawerButtonController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                buddyButton = NSButton; 
+                buddyListController = BuddyListController; 
+                buddyMenu = NSMenuItem; 
+                chatWindowController = ChatWindowController; 
+                gestaltButton = NSButton; 
+                gestaltMenu = NSMenuItem; 
+                getInfoButton = NSButton; 
+                getInfoMenu = NSMenuItem; 
+                iTunesButton = NSButton; 
+                iTunesMenu = NSMenuItem; 
+                ignoreButton = NSButton; 
+                ignoreMenu = NSMenuItem; 
+                ircController = IRCController; 
+                pingButton = NSButton; 
+                pingMenu = NSMenuItem; 
+                privateMessageButton = NSButton; 
+                privateMessageMenu = NSMenuItem; 
+                timeButton = NSButton; 
+                timeMenu = NSMenuItem; 
+                versionButton = NSButton; 
+                versionMenu = NSMenuItem; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {toggleDrawer = id; }; 
+            CLASS = DrawerController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                chatWindowController = ChatWindowController; 
+                theDrawer = NSDrawer; 
+                userListMenuItem = NSMenuItem; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {hideEmoticonList = id; showEmoticonList = id; }; 
+            CLASS = EmoticonController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cwc = ChatWindowController; 
+                emoticonMenu = NSMenuItem; 
+                emoticonTableView = NSTableView; 
+                emoticonWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = IRCController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                buddyListController = BuddyListController; 
+                chatWindowController = ChatWindowController; 
+                debuggerText = NSTextView; 
+                drawerButtonController = DrawerButtonController; 
+                drawerController = DrawerController; 
+                prefController = PrefController; 
+                sheetController = SheetController; 
+                utils = Utils; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {start = id; stop = id; }; 
+            CLASS = ITChasingArrowsView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {updateInfo = id; }; 
+            CLASS = InfoPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                hostNameField = NSTextField; 
+                idleField = NSTextField; 
+                infoPanel = NSWindow; 
+                nickNameField = NSTextField; 
+                realNameField = NSTextField; 
+                signedOnField = NSTextField; 
+                userNameField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                dragIndentSlider = id; 
+                dragOpaqueSlider = id; 
+                dragTruncateSlider = id; 
+                fullEffect = id; 
+                partialEffect = id; 
+            }; 
+            CLASS = LivePrefsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                chatWindow = NSWindow; 
+                cwc = ChatWindowController; 
+                indentField = NSTextField; 
+                indentSlider = NSSlider; 
+                nickField = NSTextField; 
+                opaqueSlider = NSSlider; 
+                truncateField = NSTextField; 
+                truncateSlider = NSSlider; 
+                utils = Utils; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = OMChatView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = OMTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {
+            ACTIONS = {
+                changeFontClick = id; 
+                openPrefWindow = id; 
+                prefWindowCancel = id; 
+                prefWindowOk = id; 
+                resetToDefaut = id; 
+            }; 
+            CLASS = PrefController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                autoConnectBox = NSButton; 
+                bellBeepBox = NSButton; 
+                bgColorWell = NSColorWell; 
+                buddyColorWell = NSColorWell; 
+                buddyListController = BuddyListController; 
+                bufferBox = NSButton; 
+                chatWindow = NSWindow; 
+                ctcpEnabledBox = NSButton; 
+                currentFontField = NSTextField; 
+                cwc = ChatWindowController; 
+                emotBox = NSButton; 
+                emotCont = EmoticonController; 
+                gestaltBox = NSMatrix; 
+                indentField = NSTextField; 
+                indentSlider = NSSlider; 
+                ircController = IRCController; 
+                joinPartColorWell = NSColorWell; 
+                myColorWell = NSColorWell; 
+                nameField = NSTextField; 
+                nickField = NSTextField; 
+                noticeColorWell = NSColorWell; 
+                opaqueSlider = NSSlider; 
+                pmColorWell = NSColorWell; 
+                pmNewWindowBox = NSButton; 
+                pmOpaqueSlider = NSSlider; 
+                prefWindow = NSWindow; 
+                quitMessageField = NSTextField; 
+                serverColorWell = NSColorWell; 
+                serverPopUp = NSPopUpButton; 
+                showMOTDBox = NSButton; 
+                soundBuddyBox = NSButton; 
+                soundCTCPBox = NSButton; 
+                soundJoinBox = NSButton; 
+                soundKickBox = NSButton; 
+                soundLeaveBox = NSButton; 
+                soundPMBox = NSButton; 
+                soundPingBox = NSButton; 
+                stripeColorWell = NSColorWell; 
+                textColorWell = NSColorWell; 
+                truncateField = NSTextField; 
+                truncateSlider = NSSlider; 
+                utils = Utils; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = SendDataController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                chatWindowController = ChatWindowController; 
+                ircController = IRCController; 
+                utils = Utils; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                gestaltNo = id; 
+                gestaltYes = id; 
+                ipDisconnect = id; 
+                ipOK = id; 
+                ncDisconnect = id; 
+                ncOK = id; 
+                nrDisconnect = id; 
+                nrOK = id; 
+            }; 
+            CLASS = SheetController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                chatWindowController = ChatWindowController; 
+                gestaltComputerField = NSTextField; 
+                gestaltNickField = NSTextField; 
+                gestaltPanel = NSWindow; 
+                gestaltProcessorSpeedField = NSTextField; 
+                gestaltRAMInstalledField = NSTextField; 
+                gestaltShowAgainBox = NSButton; 
+                gestaltSysVersionField = NSTextField; 
+                ipDisconnectButton = NSButton; 
+                ipKeyChainBox = NSButton; 
+                ipNickField = NSTextField; 
+                ipOKButton = NSButton; 
+                ipPanel = NSWindow; 
+                ipPassField = NSSecureTextField; 
+                ircController = IRCController; 
+                ncDisconnectButton = NSButton; 
+                ncNickField = NSTextField; 
+                ncOKButton = NSButton; 
+                nickChangePanel = NSWindow; 
+                nickRegPanel = NSWindow; 
+                nrDisconnectButton = NSButton; 
+                nrKeyChainBox = NSButton; 
+                nrNickField = NSTextField; 
+                nrOKButton = NSButton; 
+                nrPassField = NSSecureTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = TSChatInput; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {cwc = ChatWindowController; ircController = IRCController; }; 
+            SUPERCLASS = NSTextView; 
+        }, 
+        {
+            ACTIONS = {
+                findNext = id; 
+                findNextAndOrderFindPanelOut = id; 
+                findPrevious = id; 
+                jumpToSelection = id; 
+                orderFrontFindPanel = id; 
+                replace = id; 
+                replaceAll = id; 
+                replaceAndFind = id; 
+                takeFindStringFromSelection = id; 
+            }; 
+            CLASS = TextFinder; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                chatWindowController = ChatWindowController; 
+                findNextButton = id; 
+                findTextField = id; 
+                ignoreCaseButton = id; 
+                replaceAllScopeMatrix = id; 
+                replaceTextField = id; 
+                statusField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = URLTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = Utils; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

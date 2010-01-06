@@ -1,0 +1,146 @@
+
+meduim priority bug - /me from other users don't show up in private message windows!
+
+low priority bug - doesn't properly deal with multiple mode changes in one line
+    
+low priority bug - /whois doesn't work
+
+low priority bug - if someone has both op and voice when you log in, the client only thinks they have op
+
+low priority bug - private message opens a private message window even if the prefs say not to - the prefs only effect incoming PMs, not outgoing!
+
+1.5.3:
+the toolbar crash has been much reduced
+now confirms that you want to quit when you are still connected to the server - and has the dot in the close button
+pasting multiple lines actuly sends multiple lines, rather then just the 1st!
+stripes in the user, and buddy lists
+revised the readme, some of that was out of date, even for OpenMac!
+the version check feature now supports the new AND the old format, useful for when marging back with OM
+
+new in 1.5.2:
+/quote
+/ctcp
+fixed iMac a-d gestalt bug
+connect in the menu bar
+users in the menu bar
+returned the lenth of a song in /ctcp iTunes
+new server listing, to reflect opn now being freenode
+(hidden) time stamps
+
+squished bug - if a buddy does a /me that text is colored TextColor, rather then Buddy Color Ã 1.5
+
+emoticons Ã 1.5
+
+input feild now scrolls Ã 1.5
+
+input buffer Ã 1.5
+
+iproved spealing Ã 1.5
+
+beep on ctr-g now works Ã 1.5
+
+to send a ctr-g you have to press ctr-option-g Ã 1.5
+
+refined default colors
+
+refinded version checking, better for stastisics Ã 1.5 (not mentioned in the readme)
+
+squished bug - didn't mark someone as offline if they quit (only if they part) Ã 1.4
+squished bug - the icon doesn't come though in an alias Ã fixed with the new 1.4 icon
+
+smaller font size in the users list Ã 1.3.7
+cool online/offline icons in buddy list Ã 1.3.7
+
+emoticons in chat Ã 1.4.1
+
+tab autocompleet
+
+low priority bug - the chat background color doesn't seem to be sticking - fixed in 1.3.1
+
+low priority bug - /topic with no topic causes a crash - fixed in 1.3.1
+
+low priority bug - it doesn't register when someone op's - fixed in 1.3.1, same bug as below
+
+high priority bug - it doesn't register when someone gets banned probably related to above - fixed in 1.3.1, same bug as above
+    
+buddy list Ã
+
+fix colors in PM window Ã 1.3 thanks phreck for starting this
+
+add nicks to PM window Ã 1.3 thanks phreck for starting this
+
+enabled close window widget, and made it quti the app Ã 1.3
+    
+deleted still more OpenMac's in 1.3 :)
+
+added a features request menu item that goes to my forums Ã 1.3.1
+
+tweeked iTunes intagration to respect the playing state Ã 1.3
+
+add /me doesn't to msg windows 
+
+make it remember the state of the users drawere Ã 1.3
+
+change nick name when changed in the prefs sheet Ã 1.3
+
+toggle connect and user list tooltips Ã 1.3
+
+number next to nick in nick list Ã 1.4
+
+look into tabs for messages
+    base it on Chimera or audion
+    
+message windows staying in dock when minimised Ã 1.3
+    add an icon to the dock icon when a new message is received
+	PrivWindowController.m line 91 (or the bookmark) SHOULD do this... why doesn't it? because it is an implimented feature, ircle does this so it must work with carbon... otoh, terminal's icon updates, and as far as i know thats cocoa!
+    
+add support for user slectable sounds
+
+save nickserv password in the keychain
+
+auto-update on launch Ã 1.3
+
+make text entry area scroll Ã 1.4.1/1.5
+
+adapt iTunes to work with Audion (anyone want to take this on? email natef@ForgottenNewbies.com)
+
+fix kick message Ã 1.3
+live truncate slider feedback Ã 1.3
+
+add infinate loop email Ã - 1.2.1
+make message board default toolbar item Ã - 1.2.1
+fixed the ignore menu Ã - 1.2.1
+found more stray OpenaMacs Ã 1.2.1
+put notice sound in when someone does a mac info Ã - 1.2.1
+BUG: connect doesn't like all real names Ã - 1.2.1
+
+add an autoconnect option Ã 1.2.1
+
+iTunes integration Ã - 1.2
+    reduse the presision of the iTunes MBÃ - 1.2.1
+    
+fix stray ctcp sounds Ã - 1.2
+    add server join leave and kick sound Ã - 1.3
+
+
+add support for ^G (the bell char) Ã 1.5 - ctr-opt-g
+
+easter egg - :X (don't mention it in the readme) Ã - 1.2
+
+esc cleasrs input Ã - 1.2
+
+make sure quit message always goes through
+
+remove server messages, making it look like less of an IRC client :) Ã - 1.2
+
+Topic changing 
+    make clicking on the topic change it, if the mode is -t
+    make clicking on the topic display it, if mode is +t
+    show that the topic has been changed in the chat window Ã - 1.2
+	show who has set the topic Ã 1.3
+    
+emoticons
+
+look into IE cookie/name retrieval with bones' help
+look into IE cookie/avatar retrieval with bones' help
+look into IE cookie/signiture retrival with bones' help

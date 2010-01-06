@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {finish = id; next = id; previous = id; }; 
+            CLASS = NickRegController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                chatWindow = NSWindow; 
+                dummyView = NSBox; 
+                firstStepView = NSBox; 
+                keyChainBox = NSButton; 
+                nextButton = NSButton; 
+                nickRegWindow = NSWindow; 
+                nicknameField = NSTextField; 
+                passwordField = NSSecureTextField; 
+                prevButton = NSButton; 
+                secondStepView = NSBox; 
+                statusField = NSTextField; 
+                statusIndicator = NSProgressIndicator; 
+                stepField = NSTextField; 
+                theTextBlock = NSTextField; 
+                thirdStepView = NSBox; 
+                windowViews = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

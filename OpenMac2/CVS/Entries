@@ -1,0 +1,99 @@
+/AIKeychain.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/AIKeychain.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/AboutBoxController.h/1.2/Mon Mar 17 14:22:24 2003//
+/AboutBoxController.m/1.5/Mon Mar 17 14:22:24 2003//
+/BuddyListController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/BuddyListController.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/ChatWindowController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/ChatWindowController.m/1.10/Sat Mar 22 11:23:40 2003//
+/DrawerButtonController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/DrawerButtonController.m/1.2/Mon Mar 17 14:14:30 2003//
+/DrawerController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/DrawerController.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/Emoticon.tif/1.3/Mon Mar 17 09:57:38 2003//
+/EmoticonController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/EmoticonController.m/1.4/Sat Mar 22 11:15:38 2003//
+/Globals.h/1.3/Fri Mar 14 13:32:08 2003//
+/IRCController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/InfoPanelController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/InfoPanelController.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/LSTextView.h/1.1/Sat Mar 22 11:23:55 2003//
+/LSTextView.m/1.1/Sat Mar 22 11:23:55 2003//
+/LeftArrow.tiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/Localizable.strings/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/MessageBoard.tiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NDAppleScriptObject.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NDAppleScriptObject.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NDAppleScriptObject_Protocols.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NDResourceFork.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NDResourceFork.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NDmain.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NSAppleEventDescriptor+NDAppleScriptObject.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NSAppleEventDescriptor+NDAppleScriptObject.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NSURL+NDCarbonUtilities.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NSURL+NDCarbonUtilities.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/Network.tiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NickChooseController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NickChooseController.m/1.2/Fri Mar 14 08:27:53 2003//
+/NickRegController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/NickRegController.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/OMTableView.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/OMTableView.m/1.2/Mon Mar 17 14:30:21 2003//
+/OpenMac.icns/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/OpenMacLogo.tiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/PrefController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/PrefController.m/1.5/Sat Mar 22 10:56:29 2003//
+/PrivWindowController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/PrivWindowController.m/1.3/Sat Mar 22 10:07:49 2003//
+/ReadMe.icns/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/RightArrow.tiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/SendDataController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/SendDataController.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/SheetController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/SheetController.m/1.2/Wed Mar 12 17:20:08 2003//
+/TSAttributedStringFormattingAdditions.h/1.4/Fri Mar 14 13:11:31 2003//
+/TSAttributedStringFormattingAdditions.m/1.7/Mon Mar 17 13:20:00 2003//
+/TextFinder.h/1.1.1.1/Tue Mar 11 17:23:00 2003//
+/TextFinder.m/1.1.1.1/Tue Mar 11 17:23:00 2003//
+/URLMutableAttributedString.h/1.1.1.1/Tue Mar 11 17:23:00 2003//
+/URLMutableAttributedString.m/1.1.1.1/Tue Mar 11 17:23:00 2003//
+/URLTextView.h/1.1.1.1/Tue Mar 11 17:23:00 2003//
+/URLTextView.m/1.1.1.1/Tue Mar 11 17:23:00 2003//
+/URLTextViewHand.tiff/1.1.1.1/Tue Mar 11 17:23:00 2003//
+/Update.tiff/1.1.1.1/Tue Mar 11 17:23:00 2003//
+/Users.tiff/1.1.1.1/Tue Mar 11 17:23:00 2003//
+/Utils.h/1.1.1.1/Tue Mar 11 17:23:00 2003//
+/Utils.m/1.1.1.1/Tue Mar 11 17:23:00 2003//
+/_oldNetwork.tiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/buddy off.aiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/buddy on.aiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/dogcow.tiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/feature plans/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/iTunes refernce.applescript/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/iTunes.applescript/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/join.aiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/kick.aiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/leave.aiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/livePrefsController.h/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/livePrefsController.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/macintosh-logo-irc.tif/1.3/Thu Mar 13 11:47:02 2003//
+/macintosh.icns/1.2/Fri Mar 21 15:23:58 2003//
+/mail.icns/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/main.m/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/msg.aiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/notice.aiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/offlineDot.tiff/1.2/Mon Mar 17 14:59:04 2003//
+/onlineDot.tiff/1.2/Mon Mar 17 14:59:04 2003//
+/ping.aiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/prefs.tiff/1.1.1.1/Tue Mar 11 17:22:59 2003//
+/stats.tif/1.1.1.1/Tue Mar 11 17:22:59 2003//
+D/Danish.lproj////
+D/English.lproj////
+D/French.lproj////
+D/German.lproj////
+D/Japanese.lproj////
+D/OpenMac.pbproj////
+D/ReadMe.rtfd////
+D/emoticons////
+/IRCController.m/1.8/Sat Mar 22 15:01:17 2003//
+/Globals.m/1.8/Sun Jul 20 14:00:22 2003//
