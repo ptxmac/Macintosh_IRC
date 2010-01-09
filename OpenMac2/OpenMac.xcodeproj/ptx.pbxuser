@@ -67,8 +67,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 284498126;
-			PBXWorkspaceStateSaveDate = 284498126;
+			PBXPerProjectTemplateStateSaveDate = 284749796;
+			PBXWorkspaceStateSaveDate = 284749796;
 		};
 		perUserProjectItems = {
 			313FA34E10F50D1300E9D065 = 313FA34E10F50D1300E9D065 /* PBXTextBookmark */;
@@ -84,9 +84,11 @@
 			313FA3F910F517FC00E9D065 = 313FA3F910F517FC00E9D065 /* PBXTextBookmark */;
 			313FA3FA10F517FC00E9D065 = 313FA3FA10F517FC00E9D065 /* PBXTextBookmark */;
 			313FA41E10F518BB00E9D065 = 313FA41E10F518BB00E9D065 /* PBXTextBookmark */;
-			313FA43F10F5194A00E9D065 /* PBXTextBookmark */ = 313FA43F10F5194A00E9D065 /* PBXTextBookmark */;
-			313FA44710F5199300E9D065 /* PBXTextBookmark */ = 313FA44710F5199300E9D065 /* PBXTextBookmark */;
-			313FA44C10F519F200E9D065 /* PBXTextBookmark */ = 313FA44C10F519F200E9D065 /* PBXTextBookmark */;
+			313FA43F10F5194A00E9D065 = 313FA43F10F5194A00E9D065 /* PBXTextBookmark */;
+			313FA44710F5199300E9D065 = 313FA44710F5199300E9D065 /* PBXTextBookmark */;
+			313FA44C10F519F200E9D065 = 313FA44C10F519F200E9D065 /* PBXTextBookmark */;
+			313FA55210F8F00900E9D065 /* XCBuildMessageTextBookmark */ = 313FA55210F8F00900E9D065 /* XCBuildMessageTextBookmark */;
+			313FA55310F8F00900E9D065 /* PBXTextBookmark */ = 313FA55310F8F00900E9D065 /* PBXTextBookmark */;
 			3163352610F0B6D3006BA354 = 3163352610F0B6D3006BA354 /* PBXTextBookmark */;
 			3163352910F0B6D3006BA354 = 3163352910F0B6D3006BA354 /* PBXTextBookmark */;
 			3163352A10F0B6D3006BA354 = 3163352A10F0B6D3006BA354 /* PBXTextBookmark */;
@@ -269,6 +271,25 @@
 		rType = 0;
 		vrLen = 887;
 		vrLoc = 0;
+	};
+	313FA55210F8F00900E9D065 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'cString' is deprecated (declared at /System/Library/Frameworks/Foundation.framework/Headers/NSString.h:367)";
+		fRef = F59730F501A6D8F501A80014 /* IRCController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 200;
+		rType = 1;
+	};
+	313FA55310F8F00900E9D065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F59730F501A6D8F501A80014 /* IRCController.m */;
+		name = "IRCController.m: 201";
+		rLen = 0;
+		rLoc = 8670;
+		rType = 0;
+		vrLen = 2647;
+		vrLoc = 7564;
 	};
 	3163346710F0B0B6006BA354 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -588,9 +609,9 @@
 	F59730F501A6D8F501A80014 /* IRCController.m */ = {
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{112279, 7050}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 120411}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {2532, 31920}}";
-			sepNavSelRange = "{66670, 0}";
-			sepNavVisRange = "{65524, 2561}";
+			sepNavIntBoundsRect = "{{0, 0}, {2532, 31808}}";
+			sepNavSelRange = "{8670, 0}";
+			sepNavVisRange = "{7564, 2647}";
 			sepNavWindowFrame = "{{56, 0}, {1025, 876}}";
 		};
 	};

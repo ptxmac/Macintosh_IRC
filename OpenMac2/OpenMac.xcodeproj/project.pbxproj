@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		313FA34610F50CF500E9D065 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313FA33D10F50CE600E9D065 /* Sparkle.framework */; };
 		313FA3B710F5132100E9D065 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 313FA3B610F5132100E9D065 /* dsa_pub.pem */; };
+		313FA54F10F8EFF700E9D065 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 313FA33D10F50CE600E9D065 /* Sparkle.framework */; };
 		3163347010F0B0CE006BA354 /* DrawerButtonController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C34B300179055C01A80014 /* DrawerButtonController.h */; };
 		3163347110F0B0CE006BA354 /* ChatWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C062B3017B8B0F01A80014 /* ChatWindowController.h */; };
 		3163347210F0B0CE006BA354 /* InfoPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F75C3D01D7E85401A80014 /* InfoPanelController.h */; };
@@ -147,6 +148,19 @@
 			remoteInfo = Sparkle;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		313FA56010F8F00900E9D065 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				313FA54F10F8EFF700E9D065 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -623,6 +637,7 @@
 				3163348D10F0B0CE006BA354 /* Resources */,
 				316334BD10F0B0CE006BA354 /* Sources */,
 				316334DB10F0B0CE006BA354 /* Frameworks */,
+				313FA56010F8F00900E9D065 /* CopyFiles */,
 			);
 			buildRules = (
 			);
