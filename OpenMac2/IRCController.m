@@ -1400,7 +1400,7 @@
                         if (hours)
                         {
                             if (count > 0)
-                                [idleString appendString:[NSString stringWithFormat:@", "]];
+                                [idleString appendString:@", "];
 
                             [idleString appendString:[NSString stringWithFormat:loc(@"%d hour"), hours]];
                             if (hours != 1)
@@ -1413,7 +1413,7 @@
                         if (minutes)
                         {
                             if (count > 0)
-                                [idleString appendString:[NSString stringWithFormat:@", "]];
+                                [idleString appendString:@", "];
 
                             [idleString appendString:[NSString stringWithFormat:loc(@"%d minute"), minutes]];
                             if (minutes != 1)

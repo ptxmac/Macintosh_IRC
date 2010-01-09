@@ -28,7 +28,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					924,
+					10,
 					20,
 					48,
 					43,
@@ -50,7 +50,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					884,
+					10,
 					60,
 					20,
 					48,
@@ -67,15 +67,15 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 284494514;
-			PBXWorkspaceStateSaveDate = 284494514;
+			PBXPerProjectTemplateStateSaveDate = 284510493;
+			PBXWorkspaceStateSaveDate = 284510493;
 		};
 		perUserProjectItems = {
-			313FA32410F50ABE00E9D065 /* PBXTextBookmark */ = 313FA32410F50ABE00E9D065 /* PBXTextBookmark */;
-			313FA34D10F50D1300E9D065 /* PBXTextBookmark */ = 313FA34D10F50D1300E9D065 /* PBXTextBookmark */;
-			313FA34E10F50D1300E9D065 /* PBXTextBookmark */ = 313FA34E10F50D1300E9D065 /* PBXTextBookmark */;
-			313FA34F10F50D1300E9D065 /* PBXTextBookmark */ = 313FA34F10F50D1300E9D065 /* PBXTextBookmark */;
-			313FA35010F50D1300E9D065 /* PlistBookmark */ = 313FA35010F50D1300E9D065 /* PlistBookmark */;
+			313FA32410F50ABE00E9D065 = 313FA32410F50ABE00E9D065 /* PBXTextBookmark */;
+			313FA34D10F50D1300E9D065 = 313FA34D10F50D1300E9D065 /* PBXTextBookmark */;
+			313FA34E10F50D1300E9D065 = 313FA34E10F50D1300E9D065 /* PBXTextBookmark */;
+			313FA34F10F50D1300E9D065 = 313FA34F10F50D1300E9D065 /* PBXTextBookmark */;
+			313FA35010F50D1300E9D065 = 313FA35010F50D1300E9D065 /* PlistBookmark */;
 			3163350110F0B200006BA354 = 3163350110F0B200006BA354 /* PBXTextBookmark */;
 			3163352610F0B6D3006BA354 = 3163352610F0B6D3006BA354 /* PBXTextBookmark */;
 			3163352810F0B6D3006BA354 = 3163352810F0B6D3006BA354 /* PBXTextBookmark */;
@@ -152,7 +152,7 @@
 		);
 		name = "/Users/ptx/Projects/LS/Macintosh_IRC/OpenMac2/Info-OpenMac__Upgraded_.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	3163346710F0B0B6006BA354 /* Source Control */ = {
 		isa = PBXSourceControlManager;
