@@ -20,8 +20,6 @@ extern NSString *STATS_URL;
 extern NSString *SUPPORT_URL;
 extern NSString *FORUM_URL;
 extern NSString *EMAIL_ADDRESS;
-extern NSString *VERSION_URL;
-extern const int APPBUILDNUMBER;
 extern NSString *NICKSERV_NAME;
 extern NSString *NICKSERV_REGED_TRIGGER;
 extern NSString *NICKSERV_BAD_PASSWORD;

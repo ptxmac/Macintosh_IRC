@@ -24,6 +24,10 @@
 	<string>OMCt</string>
 	<key>CFBundleVersion</key>
 	<string>1.0.2</string>
+	<key>SUFeedURL</key>
+	<string>http://macintosh.irczone.dk/appcast.xml</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>dsa_pub.pem</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
