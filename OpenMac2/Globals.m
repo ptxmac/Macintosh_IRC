@@ -24,13 +24,13 @@
         NSString *MAIN_URL = @"http://macintosh.irczone.dk/";
 
     // the channel guidlines in the help menu and initial nick choose window
-        NSString *GUIDE_URL = @"http://macintosh.irczone.dk/retningslinier/";
+        NSString *GUIDE_URL = @"http://macintosh.irczone.dk/rules/";
 
     // the stats page in the toolbar
         NSString *STATS_URL = @"http://macintosh.irczone.dk/ircstats/";
 
     // the features request/support forum in the help menu
-        NSString *SUPPORT_URL = @"http://macintosh.irczone.dk/kontakt/";
+        NSString *SUPPORT_URL = @"http://macintosh.irczone.dk/contact/";
 
     // the main forum in the toolbar
         NSString *FORUM_URL = @"";
